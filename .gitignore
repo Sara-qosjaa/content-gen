@@ -1,3 +1,8 @@
 node_modules/
 .vscode
+.env
+dist/
+data/app_settings.sqlite
+data/app_settings.sqlite-shm
+data/app_settings.sqlite-wal
 
