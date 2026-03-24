@@ -66,7 +66,13 @@ const normalizeAccountState = (rawState, accountKey) => {
   if (!rawState || typeof rawState !== 'object') return fallback;
 
   return {
-    images: Array.isArray(rawState.images) && rawState.images.length > 0 ? rawState.images : fallback.images,
+    images: (() => {
+      const saved = Array.isArray(rawState.images) && rawState.images.length > 0 ? rawState.images : [];
+      const defaults = fallback.images;
+      // Always merge so new entries added to baseImageNames appear even with an existing saved state
+      const merged = [...new Set([...saved, ...defaults])];
+      return merged.length > 0 ? merged : defaults;
+    })(),
     videos: Array.isArray(rawState.videos) && rawState.videos.length > 0 ? rawState.videos : fallback.videos,
     audios: Array.isArray(rawState.audios) && rawState.audios.length > 0 ? rawState.audios : fallback.audios,
     posts: Array.isArray(rawState.posts) && rawState.posts.length > 0
@@ -156,6 +162,29 @@ export default function InstagramMockup() {
     loadSettings();
     return () => { isCancelled = true; };
   }, []);
+
+  // Sync images/videos from disk whenever the selected account changes.
+  // This ensures files uploaded outside the app (or on another device) are always visible.
+  useEffect(() => {
+    let cancelled = false;
+    fetch(`/api/list-media?accountKey=${selectedAccountKey}`)
+      .then(r => r.json())
+      .then(({ images: diskImages = [], videos: diskVideos = [] }) => {
+        if (cancelled) return;
+        setAccountStateByKey(prev => {
+          const current = prev[selectedAccountKey] || buildDefaultAccountState(selectedAccountKey);
+          const mergedImages = [...new Set([...current.images, ...diskImages])];
+          const mergedVideos = [...new Set([...current.videos, ...diskVideos])];
+          if (
+            mergedImages.length === current.images.length &&
+            mergedVideos.length === current.videos.length
+          ) return prev; // nothing new, skip re-render
+          return { ...prev, [selectedAccountKey]: { ...current, images: mergedImages, videos: mergedVideos } };
+        });
+      })
+      .catch(() => {}); // non-critical, silently ignore
+    return () => { cancelled = true; };
+  }, [selectedAccountKey]);
 
   useEffect(() => {
     if (!hasLoadedSettingsRef.current) return;
@@ -549,6 +578,7 @@ export default function InstagramMockup() {
               audios={audios}
               addMedia={addMedia}
               removeMedia={removeMedia}
+              accountKey={selectedAccountKey}
             />
           )}
         </div>

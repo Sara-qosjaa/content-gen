@@ -72,7 +72,7 @@ export default function PostView({
         setCurrentSlideIndex(i);
         // Wait for React to finish re-rendering the new slide
         await new Promise(resolve => setTimeout(resolve, 400));
-        const dataUrl = await toJpeg(el, { pixelRatio, quality: 0.95, cacheBust: true, fontEmbedCSS });
+        const dataUrl = await toJpeg(el, { pixelRatio, quality: 0.85, cacheBust: true, fontEmbedCSS });
         slideImages.push(dataUrl);
       }
 
@@ -93,10 +93,14 @@ export default function PostView({
           images: slideImages,
           caption,
           username: accountUsername,
+          accountKey: selectedAccountKey,
         }),
       });
 
-      if (!response.ok) throw new Error(`Server error ${response.status}`);
+      if (!response.ok) {
+        const errData = await response.json().catch(() => ({}));
+        throw new Error(errData.error || `Server error ${response.status}`);
+      }
       setShareStatus('success');
       // Auto-mark as posted so it leaves the Drafts tab
       if (activePost.status !== 'posted') onTogglePostStatus?.(activePost.id);
@@ -120,7 +124,7 @@ export default function PostView({
     arrows.forEach(btn => { btn.style.visibility = 'hidden'; });
     const pixelRatio = 1080 / el.offsetWidth;
     const fontEmbedCSS = await getEmbedFontCSS();
-    const dataUrl = await toJpeg(el, { pixelRatio, quality: 0.95, cacheBust: true, fontEmbedCSS });
+    const dataUrl = await toJpeg(el, { pixelRatio, quality: 0.85, cacheBust: true, fontEmbedCSS });
     arrows.forEach(btn => { btn.style.visibility = ''; });
     const a = document.createElement('a');
     a.href = dataUrl;

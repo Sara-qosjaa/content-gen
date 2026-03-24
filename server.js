@@ -121,23 +121,67 @@ app.put('/api/settings', (req, res) => {
   });
 });
 
+// ─── Media Upload ───────────────────────────────────────────────────────────
+app.post('/api/upload-media', async (req, res) => {
+  const { accountKey, type, filename, data } = req.body ?? {};
+  if (!accountKey || !type || !filename || !data) {
+    return res.status(400).json({ error: 'Missing accountKey, type, filename or data' });
+  }
+  const folder = type === 'video' ? 'videos' : 'images';
+  const destDir = path.join(__dirname, 'public', accountKey, folder);
+  fs.mkdirSync(destDir, { recursive: true });
+  const raw = data.replace(/^data:[^;]+;base64,/, '');
+  const destPath = path.join(destDir, filename);
+  fs.writeFileSync(destPath, Buffer.from(raw, 'base64'));
+  const publicPath = `/${accountKey}/${folder}/${filename}`;
+  console.log(`[upload-media] Saved ${publicPath}`);
+  return res.json({ ok: true, path: publicPath });
+});
+
+// ─── List Media for Account ──────────────────────────────────────────────────
+// Returns all image and video filenames found on disk for the given account.
+app.get('/api/list-media', (req, res) => {
+  const { accountKey } = req.query;
+  if (!accountKey) return res.status(400).json({ error: 'Missing accountKey' });
+
+  const readDir = (sub) => {
+    const dir = path.join(__dirname, 'public', accountKey, sub);
+    try {
+      return fs.readdirSync(dir)
+        .filter(f => !f.startsWith('.'))
+        .map(f => `/${accountKey}/${sub}/${f}`);
+    } catch { return []; }
+  };
+
+  return res.json({
+    images: readDir('images'),
+    videos: readDir('videos'),
+  });
+});
+
 // ─── Instagram Direct Publisher ───────────────────────────────────────────────
 // Required env vars (.env):
-//   SERVER_PUBLIC_URL   Public HTTPS URL of this server (ngrok locally)
-//   IG_USER_ID          Instagram Business/Creator account numeric ID
-//   IG_ACCESS_TOKEN     Long-lived token with instagram_content_publish scope
+//   SERVER_PUBLIC_URL           Public HTTPS URL of this server (ngrok locally)
+//   <ACCOUNT>_IG_USER_ID        Per-account IG numeric ID (e.g. ASTROLUNA_IG_USER_ID)
+//   <ACCOUNT>_IG_ACCESS_TOKEN   Per-account token (e.g. ASTROLUNA_IG_ACCESS_TOKEN)
+//   IG_USER_ID / IG_ACCESS_TOKEN  Global fallback used when no per-account creds match
 app.post('/api/share-instagram', async (req, res) => {
-  const { postId, images, caption } = req.body ?? {};
+  const { postId, images, caption, accountKey } = req.body ?? {};
 
   if (!postId || !Array.isArray(images) || images.length === 0) {
     return res.status(400).json({ error: 'Invalid payload: postId and images[] are required.' });
   }
 
-  const { SERVER_PUBLIC_URL, IG_USER_ID, IG_ACCESS_TOKEN } = process.env;
+  // Per-account credentials: check for ACCOUNTKEY_IG_USER_ID / ACCOUNTKEY_IG_ACCESS_TOKEN
+  // (e.g., ASTROLUNA_IG_USER_ID), falling back to the global IG_USER_ID / IG_ACCESS_TOKEN.
+  const envPrefix = accountKey ? accountKey.toUpperCase() + '_' : '';
+  const SERVER_PUBLIC_URL = process.env.SERVER_PUBLIC_URL;
+  const IG_USER_ID = process.env[`${envPrefix}IG_USER_ID`] || process.env.IG_USER_ID;
+  const IG_ACCESS_TOKEN = process.env[`${envPrefix}IG_ACCESS_TOKEN`] || process.env.IG_ACCESS_TOKEN;
 
   if (!SERVER_PUBLIC_URL || !IG_USER_ID || !IG_ACCESS_TOKEN) {
     return res.status(500).json({
-      error: 'Missing credentials. Set SERVER_PUBLIC_URL, IG_USER_ID, IG_ACCESS_TOKEN in .env',
+      error: `Missing credentials for account "${accountKey || 'default'}". Set ${envPrefix}IG_USER_ID and ${envPrefix}IG_ACCESS_TOKEN in .env`,
     });
   }
 
@@ -168,10 +212,18 @@ app.post('/api/share-instagram', async (req, res) => {
         form.set('media_type', 'IMAGE');
         form.set('caption', caption || '');
       }
-      const resp = await fetch(`${igBase}/media`, { method: 'POST', body: form });
-      const data = await resp.json();
-      console.log(`[share-instagram] Container for ${imageUrl}:`, JSON.stringify(data));
-      if (!data.id) throw new Error(`IG container creation failed: ${JSON.stringify(data)}`);
+      // Retry up to 3 times — IG occasionally times out on the first attempt
+      let data;
+      for (let attempt = 1; attempt <= 3; attempt++) {
+        const resp = await fetch(`${igBase}/media`, { method: 'POST', body: form });
+        data = await resp.json();
+        console.log(`[share-instagram] Container attempt ${attempt} for ${imageUrl}:`, JSON.stringify(data));
+        if (data.id) break;
+        const isTransient = data?.error?.is_transient || data?.error?.error_subcode === 2207003;
+        if (!isTransient || attempt === 3) throw new Error(`IG container creation failed: ${JSON.stringify(data)}`);
+        console.log(`[share-instagram] Transient error, retrying in 5s...`);
+        await new Promise(r => setTimeout(r, 5000));
+      }
       containerIds.push(data.id);
     }
 
@@ -250,4 +302,44 @@ app.get('/api/font-proxy', async (req, res) => {
 app.listen(PORT, () => {
   console.log(`Settings server running on http://localhost:${PORT}`);
   console.log(`SQLite DB: ${dbPath}`);
+  refreshAllTokens();
 });
+
+// ─── Auto-refresh Instagram tokens ───────────────────────────────────────────
+// Long-lived tokens expire after 60 days. Calling the refresh endpoint resets
+// the clock to another 60 days. We do this on every server start + every 30 days.
+async function refreshToken(token) {
+  const url = `https://graph.instagram.com/refresh_access_token?grant_type=ig_refresh_token&access_token=${token}`;
+  const resp = await fetch(url);
+  const data = await resp.json();
+  if (!data.access_token) throw new Error(JSON.stringify(data));
+  return data.access_token;
+}
+
+async function refreshAllTokens() {
+  const tokenKeys = Object.keys(process.env).filter(k => k.endsWith('_IG_ACCESS_TOKEN') || k === 'IG_ACCESS_TOKEN');
+
+  for (const key of tokenKeys) {
+    const token = process.env[key];
+    if (!token || !token.startsWith('IGAA')) continue;
+    try {
+      const newToken = await refreshToken(token);
+      process.env[key] = newToken; // update in memory only — no file write to avoid restart loop
+      console.log(`[token-refresh] Refreshed ${key}`);
+    } catch (err) {
+      console.warn(`[token-refresh] Failed to refresh ${key}:`, err.message);
+    }
+  }
+}
+
+// Re-run every 20 days. Node's setTimeout uses a 32-bit signed integer for the delay,
+// so the max safe value is ~24.8 days (2,147,483,647 ms). 29+ days overflows to 1 ms
+// and causes an infinite tight loop. 20 days (1,728,000,000 ms) is safely under the limit.
+const REFRESH_INTERVAL_MS = 1000 * 60 * 60 * 24 * 20; // 20 days
+
+function scheduleNextRefresh() {
+  setTimeout(() => { refreshAllTokens().finally(scheduleNextRefresh); }, REFRESH_INTERVAL_MS);
+}
+
+// Refresh immediately on startup, then every 20 days
+refreshAllTokens().finally(scheduleNextRefresh);

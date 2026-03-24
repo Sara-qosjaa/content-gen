@@ -1,9 +1,59 @@
-import React from 'react';
+import React, { useRef, useState } from 'react';
 import {
-  Image as ImageIcon, Play, Music, Plus, Trash2
+  Image as ImageIcon, Play, Music, Plus, Trash2, Loader2
 } from 'lucide-react';
 
-export default function MediaManager({ images, videos, audios, addMedia, removeMedia }) {
+function UploadButton({ accept, color, onUpload }) {
+  const inputRef = useRef(null);
+  const [uploading, setUploading] = useState(false);
+
+  const handleChange = async (e) => {
+    const file = e.target.files?.[0];
+    if (!file) return;
+    setUploading(true);
+    try {
+      const base64 = await new Promise((resolve, reject) => {
+        const reader = new FileReader();
+        reader.onload = () => resolve(reader.result);
+        reader.onerror = reject;
+        reader.readAsDataURL(file);
+      });
+      await onUpload(file.name, base64);
+    } catch (err) {
+      console.error('[MediaManager] Upload error:', err);
+    } finally {
+      setUploading(false);
+      e.target.value = '';
+    }
+  };
+
+  return (
+    <>
+      <input ref={inputRef} type="file" accept={accept} className="hidden" onChange={handleChange} />
+      <button
+        type="button"
+        onClick={() => inputRef.current?.click()}
+        disabled={uploading}
+        className={`${color} text-white p-2 rounded-lg disabled:opacity-60 flex items-center justify-center`}
+      >
+        {uploading ? <Loader2 size={20} className="animate-spin" /> : <Plus size={20} />}
+      </button>
+    </>
+  );
+}
+
+export default function MediaManager({ images, videos, audios, addMedia, removeMedia, accountKey }) {
+  const upload = async (type, filename, base64) => {
+    const resp = await fetch('/api/upload-media', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ accountKey, type, filename, data: base64 }),
+    });
+    const json = await resp.json();
+    if (!json.ok) throw new Error(json.error);
+    addMedia(type, json.path);
+  };
+
   return (
     <div className="space-y-8 animate-in fade-in slide-in-from-right-4">
 
@@ -26,17 +76,9 @@ export default function MediaManager({ images, videos, audios, addMedia, removeM
             </div>
           ))}
         </div>
-        <form
-          onSubmit={(e) => {
-            e.preventDefault();
-            addMedia('image', e.target.elements.newImage.value);
-            e.target.reset();
-          }}
-          className="flex gap-2"
-        >
-          <input name="newImage" type="text" placeholder="Paste image URL or path..." className="flex-1 p-2 border rounded-lg text-sm outline-none focus:border-blue-500" />
-          <button type="submit" className="bg-blue-500 text-white p-2 rounded-lg hover:bg-blue-600"><Plus size={20}/></button>
-        </form>
+        <div className="flex justify-end">
+          <UploadButton accept="image/*" color="bg-blue-500 hover:bg-blue-600" onUpload={(name, data) => upload('image', name, data)} />
+        </div>
       </section>
 
       {/* Video Manager */}
@@ -63,17 +105,9 @@ export default function MediaManager({ images, videos, audios, addMedia, removeM
             </div>
           ))}
         </div>
-        <form
-          onSubmit={(e) => {
-            e.preventDefault();
-            addMedia('video', e.target.elements.newVideo.value);
-            e.target.reset();
-          }}
-          className="flex gap-2"
-        >
-          <input name="newVideo" type="text" placeholder="Paste video URL or path..." className="flex-1 p-2 border rounded-lg text-sm outline-none focus:border-emerald-500" />
-          <button type="submit" className="bg-emerald-500 text-white p-2 rounded-lg hover:bg-emerald-600"><Plus size={20}/></button>
-        </form>
+        <div className="flex justify-end">
+          <UploadButton accept="video/*" color="bg-emerald-500 hover:bg-emerald-600" onUpload={(name, data) => upload('video', name, data)} />
+        </div>
       </section>
 
       {/* Audio Manager */}

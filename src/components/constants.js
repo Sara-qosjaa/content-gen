@@ -83,6 +83,7 @@ export const baseImageNames = [
   'bg-magical-forest.jpg',
   'bg-mirror-forest.jpg',
   'bg-portal-ring.jpg',
+  '[ALB]SuperAlto_TOP3REASONS.png',
 ];
 
 export const baseVideoNames = [
