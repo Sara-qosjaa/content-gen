@@ -4,7 +4,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 import cookieParser from 'cookie-parser';
-import Database from 'better-sqlite3';
+import { DatabaseSync } from 'node:sqlite';
 import express from 'express';
 
 const __filename = fileURLToPath(import.meta.url);
@@ -20,9 +20,9 @@ if (!fs.existsSync(dataDirectory)) {
 }
 
 const dbPath = path.join(dataDirectory, 'app_settings.sqlite');
-const db = new Database(dbPath);
+const db = new DatabaseSync(dbPath);
 
-db.pragma('journal_mode = WAL');
+db.exec('PRAGMA journal_mode = WAL');
 
 db.exec(`
   CREATE TABLE IF NOT EXISTS user_settings (
@@ -122,16 +122,10 @@ app.put('/api/settings', (req, res) => {
 });
 
 // ─── Instagram Direct Publisher ───────────────────────────────────────────────
-// Saves slide images to public/shared/{postId}/ on this server, then passes
-// their public URLs directly to the Instagram Graph API — no third-party
-// image host needed.
-//
-// Required env vars in .env:
-//   SERVER_PUBLIC_URL   Public HTTPS URL of THIS server that Instagram can reach.
-//                       Locally: run `npx ngrok http 8787` and paste the URL.
-//                       Deployed: your production domain, e.g. https://yourapp.com
+// Required env vars (.env):
+//   SERVER_PUBLIC_URL   Public HTTPS URL of this server (ngrok locally)
 //   IG_USER_ID          Instagram Business/Creator account numeric ID
-//   IG_ACCESS_TOKEN     Long-lived Page Access Token (instagram_content_publish scope)
+//   IG_ACCESS_TOKEN     Long-lived token with instagram_content_publish scope
 app.post('/api/share-instagram', async (req, res) => {
   const { postId, images, caption } = req.body ?? {};
 
@@ -147,7 +141,7 @@ app.post('/api/share-instagram', async (req, res) => {
     });
   }
 
-  // ── 1. Save slides to disk — the static middleware serves them at /shared/… ─
+  // ── 1. Save slides to disk — served statically at /shared/{postId}/slide-N.jpg
   const sharedDir = path.join(__dirname, 'public', 'shared', postId);
   fs.mkdirSync(sharedDir, { recursive: true });
 
@@ -159,13 +153,11 @@ app.post('/api/share-instagram', async (req, res) => {
     publicUrls.push(`${SERVER_PUBLIC_URL.replace(/\/$/, '')}/shared/${postId}/${filename}`);
   }
 
-  // Uses the new Instagram Graph API on graph.instagram.com
-  // (compatible with IGAAA… tokens from Instagram Business Login)
   const igBase = `https://graph.instagram.com/v21.0/${IG_USER_ID}`;
   const isCarousel = images.length > 1;
 
   try {
-    // ── 2. Create one IG media container per slide ────────────────────────────
+    // ── 2. Create one IG media container per slide ──────────────────────────
     const containerIds = [];
     for (const imageUrl of publicUrls) {
       const form = new URLSearchParams({ image_url: imageUrl, access_token: IG_ACCESS_TOKEN });
@@ -176,7 +168,6 @@ app.post('/api/share-instagram', async (req, res) => {
         form.set('media_type', 'IMAGE');
         form.set('caption', caption || '');
       }
-
       const resp = await fetch(`${igBase}/media`, { method: 'POST', body: form });
       const data = await resp.json();
       console.log(`[share-instagram] Container for ${imageUrl}:`, JSON.stringify(data));
@@ -184,12 +175,10 @@ app.post('/api/share-instagram', async (req, res) => {
       containerIds.push(data.id);
     }
 
-    // ── 3. For carousels: wait briefly then wrap in a parent carousel container ─
+    // ── 3. For carousels: wait then wrap in parent container ─────────────────
     let publishContainerId;
     if (isCarousel) {
-      // Small delay — Instagram needs time to process each item before carousel creation
       await new Promise(resolve => setTimeout(resolve, 2000));
-
       const form = new URLSearchParams({
         media_type: 'CAROUSEL',
         children: containerIds.join(','),
@@ -205,7 +194,7 @@ app.post('/api/share-instagram', async (req, res) => {
       publishContainerId = containerIds[0];
     }
 
-    // ── 4. Wait for the container to be FINISHED before publishing ────────────
+    // ── 4. Wait for IG to finish processing before publishing ────────────────
     const waitForReady = async (containerId) => {
       for (let attempt = 0; attempt < 20; attempt++) {
         await new Promise(resolve => setTimeout(resolve, 3000));
@@ -219,10 +208,9 @@ app.post('/api/share-instagram', async (req, res) => {
       }
       throw new Error('Container did not finish processing in time');
     };
-
     await waitForReady(publishContainerId);
 
-    // ── 5. Publish ─────────────────────────────────────────────────────────────
+    // ── 5. Publish ───────────────────────────────────────────────────────────
     const pubForm = new URLSearchParams({ creation_id: publishContainerId, access_token: IG_ACCESS_TOKEN });
     const pubResp = await fetch(`${igBase}/media_publish`, { method: 'POST', body: pubForm });
     const pubData = await pubResp.json();

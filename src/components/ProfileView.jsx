@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import {
   Grid as GridIcon, Bookmark, Play, Plus, MoreHorizontal, Edit3
 } from 'lucide-react';
@@ -20,6 +20,13 @@ export default function ProfileView({
   onDragOver,
   onDrop,
 }) {
+  const [gridTab, setGridTab] = useState('all');
+
+  const displayedPosts =
+    gridTab === 'reversed' ? [...posts].reverse() :
+    gridTab === 'drafts'   ? posts.filter(p => p.status !== 'posted') :
+    posts;
+
   return (
     <div className="flex flex-col h-full bg-white overflow-y-auto custom-scrollbar">
       {/* Header */}
@@ -64,20 +71,44 @@ export default function ProfileView({
 
       {/* Grid Tabs */}
       <div className="flex border-t">
-        <div className="flex-1 flex justify-center py-3 border-b-2 border-black text-black">
+        <button
+          className={`flex-1 flex justify-center py-3 border-b-2 transition-colors ${
+            gridTab === 'all' ? 'border-black text-black' : 'border-transparent text-gray-400'
+          }`}
+          onClick={() => setGridTab('all')}
+          title="All posts"
+        >
           <GridIcon size={24} />
-        </div>
-        <div className="flex-1 flex justify-center py-3 text-gray-400">
+        </button>
+        <button
+          className={`flex-1 flex justify-center py-3 border-b-2 transition-colors ${
+            gridTab === 'reversed' ? 'border-black text-black' : 'border-transparent text-gray-400'
+          }`}
+          onClick={() => setGridTab('reversed')}
+          title="All posts (newest first)"
+        >
           <Play size={24} />
-        </div>
-        <div className="flex-1 flex justify-center py-3 text-gray-400">
+        </button>
+        <button
+          className={`flex-1 flex justify-center py-3 border-b-2 transition-colors ${
+            gridTab === 'drafts' ? 'border-black text-black' : 'border-transparent text-gray-400'
+          }`}
+          onClick={() => setGridTab('drafts')}
+          title="Not posted yet (drafts)"
+        >
           <Bookmark size={24} />
-        </div>
+        </button>
       </div>
 
       {/* Post Grid (Draggable) */}
       <div className="grid grid-cols-3 gap-1 bg-white flex-1 content-start">
-        {posts.map((post, index) => {
+        {displayedPosts.length === 0 && (
+          <div className="col-span-3 py-12 text-center text-gray-400 text-sm">
+            No posts here yet.
+          </div>
+        )}
+        {displayedPosts.map((post) => {
+          const originalIndex = posts.findIndex(p => p.id === post.id);
           const coverSlide = post.slides[0];
           const coverImageStyle = normalizeImageStyle(coverSlide?.imageStyle);
           const gridStyleSafe = { ...defaultGridStyle, ...(gridStyle || {}) };
@@ -90,10 +121,10 @@ export default function ProfileView({
           return (
             <div
               key={post.id}
-              draggable
-              onDragStart={(e) => onDragStart(e, index)}
-              onDragOver={(e) => onDragOver(e, index)}
-              onDrop={(e) => onDrop(e, index)}
+              draggable={gridTab === 'all'}
+              onDragStart={(e) => gridTab === 'all' && onDragStart(e, originalIndex)}
+              onDragOver={(e) => gridTab === 'all' && onDragOver(e, originalIndex)}
+              onDrop={(e) => gridTab === 'all' && onDrop(e, originalIndex)}
               onClick={() => onOpenPost(post.id)}
               className="aspect-square relative cursor-pointer group bg-gray-200"
             >
@@ -131,6 +162,12 @@ export default function ProfileView({
                   <Edit3 size={14} /> Edit
                 </span>
               </div>
+              {/* Posted badge */}
+              {post.status === 'posted' && (
+                <div className="absolute bottom-1 left-1 bg-green-500 rounded-full p-0.5" title="Posted">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" width="10" height="10"><polyline points="20 6 9 17 4 12" /></svg>
+                </div>
+              )}
               {/* Carousel Icon */}
               <div className="absolute top-2 right-2 text-white">
                 <svg aria-label="Carousel" fill="currentColor" height="22" role="img" viewBox="0 0 48 48" width="22"><path d="M34.8 29.7V11c0-2.9-2.3-5.2-5.2-5.2H11c-2.9 0-5.2 2.3-5.2 5.2v18.7c0 2.9 2.3 5.2 5.2 5.2h18.7c2.8-.1 5.1-2.4 5.1-5.2zM39.2 15v16.1c0 4.5-3.7 8.2-8.2 8.2H14.9c-.6 0-.9.7-.5 1.1 1.6 1.5 3.7 2.4 6 2.4h13.4c5.5 0 10-4.5 10-10V18.5c0-2.3-.9-4.4-2.4-6-.4-.4-1.1-.1-1.1.5z"></path></svg>

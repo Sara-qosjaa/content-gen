@@ -72,6 +72,7 @@ const normalizeAccountState = (rawState, accountKey) => {
     posts: Array.isArray(rawState.posts) && rawState.posts.length > 0
       ? rawState.posts.map((post, postIndex) => ({
           ...post,
+          status: post.status || 'draft',
           slides: Array.isArray(post.slides) && post.slides.length > 0
             ? post.slides.map((slide) => ({
                 ...slide,
@@ -214,6 +215,19 @@ export default function InstagramMockup() {
   const navigateToPost = (postId) => {
     setActivePostId(postId);
     setCurrentSlideIndex(0);
+  };
+
+  // Toggle a post between 'posted' and 'draft'.
+  // When Instagram API is connected, call this after a successful publish instead.
+  const togglePostStatus = (postId) => {
+    updateCurrentAccountState((current) => ({
+      ...current,
+      posts: current.posts.map((p) =>
+        p.id === postId
+          ? { ...p, status: p.status === 'posted' ? 'draft' : 'posted' }
+          : p
+      ),
+    }));
   };
 
   const updateSlideContent = (field, value) => {
@@ -449,6 +463,7 @@ export default function InstagramMockup() {
         updateSlideTextStyle={updateSlideTextStyle}
         posts={posts}
         onNavigateToPost={navigateToPost}
+        onTogglePostStatus={togglePostStatus}
         imageViewerRef={imageViewerRef}
         textDragRef={textDragRef}
       />

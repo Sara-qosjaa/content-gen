@@ -21,6 +21,7 @@ export default function PostView({
   updateSlideTextStyle,
   posts,
   onNavigateToPost,
+  onTogglePostStatus,
   imageViewerRef,
   textDragRef,
 }) {
@@ -106,9 +107,13 @@ export default function PostView({
   const downloadCurrentSlide = async () => {
     const el = imageViewerRef?.current;
     if (!el) return;
+    // Temporarily hide nav arrows so they don't appear in the downloaded image
+    const arrows = el.querySelectorAll('button');
+    arrows.forEach(btn => { btn.style.visibility = 'hidden'; });
     const pixelRatio = 1080 / el.offsetWidth;
     const fontEmbedCSS = await getEmbedFontCSS();
     const dataUrl = await toJpeg(el, { pixelRatio, quality: 0.95, cacheBust: true, fontEmbedCSS });
+    arrows.forEach(btn => { btn.style.visibility = ''; });
     const a = document.createElement('a');
     a.href = dataUrl;
     a.download = `${activePost.id}.jpg`;
@@ -338,6 +343,13 @@ export default function PostView({
 
       {/* Action Bar */}
       <div className="px-4 py-3 bg-white">
+        {/* Posted status badge */}
+        {activePost.status === 'posted' && (
+          <div className="flex items-center gap-1.5 text-green-600 text-xs font-semibold mb-2">
+            <CheckCircle size={14} />
+            <span>Posted to Instagram</span>
+          </div>
+        )}
         <div className="flex justify-between mb-3">
           <div className="flex gap-4 items-center">
             <Heart size={26} className="text-black hover:text-red-500 cursor-pointer" />
@@ -359,9 +371,23 @@ export default function PostView({
               )}
             </button>
           </div>
-          <button onClick={downloadCurrentSlide} title={`Download slide as ${activePost.id}.jpg`}>
-            <Download size={26} className="text-black cursor-pointer hover:text-blue-600 transition-colors" />
-          </button>
+          <div className="flex items-center gap-3">
+            <button
+              onClick={() => onTogglePostStatus?.(activePost.id)}
+              title={activePost.status === 'posted' ? 'Mark as not posted' : 'Mark as posted'}
+              className={`flex items-center gap-1 text-xs font-semibold px-2 py-1 rounded-full border transition-colors ${
+                activePost.status === 'posted'
+                  ? 'border-green-500 text-green-600 hover:bg-green-50'
+                  : 'border-gray-300 text-gray-500 hover:bg-gray-50'
+              }`}
+            >
+              <CheckCircle size={13} />
+              {activePost.status === 'posted' ? 'Posted' : 'Mark posted'}
+            </button>
+            <button onClick={downloadCurrentSlide} title={`Download slide as ${activePost.id}.jpg`}>
+              <Download size={26} className="text-black cursor-pointer hover:text-blue-600 transition-colors" />
+            </button>
+          </div>
         </div>
         {shareStatus === 'success' && (
           <p className="text-xs text-green-600 text-center mb-2">Sent to n8n — check Instagram shortly ✓</p>

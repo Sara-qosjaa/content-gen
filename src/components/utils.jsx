@@ -99,6 +99,7 @@ export const generatePosts = (contentData, images, videos, audios) => {
         caption: post.caption || '',
         hashtags: Array.isArray(post.hashtags) ? post.hashtags : [],
         audio: audios[postIndex % audios.length],
+        status: post.status || 'draft',
         slides: normalizedSlides.length > 0
           ? normalizedSlides
           : [createFallbackSlide(post.id, postIndex, images, videos, post.hook || normalizedTitle)]

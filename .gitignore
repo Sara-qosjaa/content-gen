@@ -7,8 +7,10 @@ node_modules/
 # Build output
 dist/
 
-# SQLite DB files
-data/
+# SQLite DB files (runtime-generated, not for source control)
+data/app_settings.sqlite
+data/app_settings.sqlite-shm
+data/app_settings.sqlite-wal
 
 # Saved slide images (generated at runtime)
 public/shared/
