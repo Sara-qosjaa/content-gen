@@ -1,0 +1,15 @@
+node_modules/
+.vscode
+
+# Secrets — never commit
+.env
+
+# Build output
+dist/
+
+# SQLite DB files
+data/
+
+# Saved slide images (generated at runtime)
+public/shared/
+
