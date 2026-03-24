@@ -59,6 +59,10 @@ export default function PostView({
     setShareStatus(null);
     const savedIndex = currentSlideIndex;
 
+    // Hide all buttons (nav arrows, etc.) so they don't appear in captured images
+    const buttons = el.querySelectorAll('button');
+    buttons.forEach(btn => { btn.style.visibility = 'hidden'; });
+
     try {
       const pixelRatio = 1080 / el.offsetWidth;
       const fontEmbedCSS = await getEmbedFontCSS();
@@ -72,8 +76,9 @@ export default function PostView({
         slideImages.push(dataUrl);
       }
 
-      // Restore original slide index
+      // Restore original slide index and button visibility
       setCurrentSlideIndex(savedIndex);
+      buttons.forEach(btn => { btn.style.visibility = ''; });
 
       const caption = [
         activePost.caption || activePost.title || '',
@@ -93,9 +98,12 @@ export default function PostView({
 
       if (!response.ok) throw new Error(`Server error ${response.status}`);
       setShareStatus('success');
+      // Auto-mark as posted so it leaves the Drafts tab
+      if (activePost.status !== 'posted') onTogglePostStatus?.(activePost.id);
     } catch (err) {
       console.error('[Share] Error:', err);
       setCurrentSlideIndex(savedIndex);
+      buttons.forEach(btn => { btn.style.visibility = ''; });
       setShareStatus('error');
     } finally {
       setIsSharing(false);
