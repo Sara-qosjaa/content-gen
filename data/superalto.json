@@ -1,0 +1,3934 @@
+{
+  "brand": "SuperAlto",
+  "description": "90-day Instagram & TikTok content calendar for car marketplace targeting Albania, Kosovo, Montenegro, Greece.",
+  "version": "1.0",
+  "platforms": ["instagram", "tiktok"],
+  "total_posts": 90,
+  "posts": [
+    {
+      "day": 1,
+      "id": "SA_001",
+      "month": "Month 1",
+      "week": "Week 1",
+      "week_theme": "The Chaos of Car Hunting in Albania",
+      "day_of_week": "Monday",
+      "content_type": "Reel",
+      "content_style": "Relatable",
+      "hook": "POV: You're looking for a car in Albania \ud83c\udde6\ud83c\uddf1",
+      "content_description": "Fast-cut montage \u2014 10 browser tabs, phone calls, WhatsApp chaos, frustrated face, then SuperAlto with one clean search. No voiceover. Text only.",
+      "caption": "One search. Every car listed in Albania, Kosovo, Montenegro and Greece. SuperAlto.ai \u2192 link in bio.",
+      "hashtags": ["#superalto #cars #albania #carbuying #tirana #kosovo"],
+      "status": "Draft",
+      "slide_count": 0,
+      "slides": [],
+      "ad_settings": {
+        "platforms": ["Instagram", "TikTok"],
+        "audience": {
+          "locations": ["AL", "XK", "ME", "GR", "IN"],
+          "age_range": "22\u201345",
+          "gender": "All",
+          "interests": [
+            "cars",
+            "automotive",
+            "car buying",
+            "Albania",
+            "used cars",
+            "Balkans"
+          ]
+        },
+        "cta": "superalto.ai \u2192 link in bio"
+      }
+    },
+    {
+      "day": 2,
+      "id": "SA_002",
+      "month": "Month 1",
+      "week": "Week 1",
+      "week_theme": "The Chaos of Car Hunting in Albania",
+      "day_of_week": "Tuesday",
+      "content_type": "Carousel",
+      "content_style": "Education",
+      "hook": "What \u20ac10,000 gets you in Albania vs. Kosovo vs. Montenegro \u2014 exact comparison",
+      "content_description": "Same budget. Different markets. Show real listings across 4 countries.",
+      "caption": "Most people only check one market. Here's what they're missing. SuperAlto searches all four simultaneously. Free. Link in bio.",
+      "hashtags": [
+        "#superalto #carbuying #albania #kosovo #montenegro #greece #usedcars"
+      ],
+      "status": "Draft",
+      "slide_count": 6,
+      "slides": [
+        {
+          "slide": 1,
+          "type": "hook",
+          "text": "Same budget. Very different car."
+        },
+        {
+          "slide": 2,
+          "type": "market",
+          "text": "2016 VW Golf 1.6 TDI, 120K km \u2014 \u20ac9,800"
+        },
+        {
+          "slide": 3,
+          "type": "market",
+          "text": "2017 VW Golf 1.6 TDI, 95K km \u2014 \u20ac8,400"
+        },
+        {
+          "slide": 4,
+          "type": "market",
+          "text": "2015 BMW 318d, 105K km \u2014 \u20ac9,500"
+        },
+        {
+          "slide": 5,
+          "type": "market",
+          "text": "2016 Audi A3, 110K km \u2014 \u20ac10,200"
+        },
+        {
+          "slide": 6,
+          "type": "cta",
+          "text": "Kosovo gives you more car for the money. Check all markets on SuperAlto."
+        }
+      ],
+      "ad_settings": {
+        "platforms": ["Instagram", "TikTok"],
+        "audience": {
+          "locations": ["AL", "XK", "ME", "GR", "IN"],
+          "age_range": "22\u201345",
+          "gender": "All",
+          "interests": [
+            "cars",
+            "automotive",
+            "car buying",
+            "Albania",
+            "used cars",
+            "Balkans"
+          ]
+        },
+        "cta": "superalto.ai \u2192 link in bio"
+      }
+    },
+    {
+      "day": 3,
+      "id": "SA_003",
+      "month": "Month 1",
+      "week": "Week 1",
+      "week_theme": "The Chaos of Car Hunting in Albania",
+      "day_of_week": "Wednesday",
+      "content_type": "Reel",
+      "content_style": "Meme / Double Meaning",
+      "hook": "I've been riding this for 4 years. She's old, leaks a little, but I can't let her go.",
+      "content_description": "Opens on old beloved car. Cut to emotional moment deciding to upgrade. SuperAlto search showing newer options. End card: 'Maybe it's time for an upgrade.'",
+      "caption": "We've all got one. But the right one is out there. SuperAlto \u2192 link in bio. \ud83d\ude02 Tag a friend who needs an upgrade.",
+      "hashtags": ["#superalto #cars #albania #upgrade #carhumor"],
+      "status": "Draft",
+      "slide_count": 0,
+      "slides": [],
+      "ad_settings": {
+        "platforms": ["Instagram", "TikTok"],
+        "audience": {
+          "locations": ["AL", "XK", "ME", "GR", "IN"],
+          "age_range": "22\u201345",
+          "gender": "All",
+          "interests": [
+            "cars",
+            "automotive",
+            "car buying",
+            "Albania",
+            "used cars",
+            "Balkans"
+          ]
+        },
+        "cta": "superalto.ai \u2192 link in bio"
+      }
+    },
+    {
+      "day": 4,
+      "id": "SA_004",
+      "month": "Month 1",
+      "week": "Week 1",
+      "week_theme": "The Chaos of Car Hunting in Albania",
+      "day_of_week": "Thursday",
+      "content_type": "Story Series",
+      "content_style": "Education",
+      "hook": "Be honest \u2014 how long did you spend looking for your last car? \ud83d\udc47",
+      "content_description": "3-part Story: Poll on time spent car hunting \u2192 Screen recording of SuperAlto 90-second search \u2192 Link sticker to SuperAlto.ai",
+      "caption": "This is what it looks like when you stop searching one site at a time.",
+      "hashtags": ["#superalto #stories #albania"],
+      "status": "Draft",
+      "slide_count": 3,
+      "slides": [
+        {
+          "slide": 1,
+          "type": "poll",
+          "text": "Be honest \u2014 how long did you spend looking for your last car? Less than 2 weeks / 1 month / More than a month / I'm still looking \ud83d\ude2d"
+        },
+        {
+          "slide": 2,
+          "type": "demo",
+          "text": "Screen recording: SuperAlto search taking 90 seconds. 'Stop searching one site at a time.'"
+        },
+        {
+          "slide": 3,
+          "type": "cta",
+          "text": "Try it free. No sign-up required. \u2192 SuperAlto.ai"
+        }
+      ],
+      "ad_settings": {
+        "platforms": ["Instagram", "TikTok"],
+        "audience": {
+          "locations": ["AL", "XK", "ME", "GR", "IN"],
+          "age_range": "22\u201345",
+          "gender": "All",
+          "interests": [
+            "cars",
+            "automotive",
+            "car buying",
+            "Albania",
+            "used cars",
+            "Balkans"
+          ]
+        },
+        "cta": "superalto.ai \u2192 link in bio"
+      }
+    },
+    {
+      "day": 5,
+      "id": "SA_005",
+      "month": "Month 1",
+      "week": "Week 1",
+      "week_theme": "The Chaos of Car Hunting in Albania",
+      "day_of_week": "Friday",
+      "content_type": "Reel",
+      "content_style": "Debate",
+      "hook": "Buying a new car in Albania in 2026 is financially irresponsible. Change my mind.",
+      "content_description": "Talking to camera: depreciation hits hardest year 1\u20132, used Balkan cars exceptional value, math on new vs. 2-year-old doesn't add up in lower-wage economy.",
+      "caption": "The numbers don't lie. A 2-year-old car in Albania holds 80% of its value and costs 40% less. Tell me I'm wrong \ud83d\udc47",
+      "hashtags": ["#superalto #caradvice #albania #usedcars #finance #debate"],
+      "status": "Draft",
+      "slide_count": 0,
+      "slides": [],
+      "ad_settings": {
+        "platforms": ["Instagram", "TikTok"],
+        "audience": {
+          "locations": ["AL", "XK", "ME", "GR", "IN"],
+          "age_range": "22\u201345",
+          "gender": "All",
+          "interests": [
+            "cars",
+            "automotive",
+            "car buying",
+            "Albania",
+            "used cars",
+            "Balkans"
+          ]
+        },
+        "cta": "superalto.ai \u2192 link in bio"
+      }
+    },
+    {
+      "day": 6,
+      "id": "SA_006",
+      "month": "Month 1",
+      "week": "Week 1",
+      "week_theme": "The Chaos of Car Hunting in Albania",
+      "day_of_week": "Saturday",
+      "content_type": "Feed Post",
+      "content_style": "Emotional",
+      "hook": "The car you buy at 25 in Albania carries more than just you.",
+      "content_description": "Beautiful photo of a car on Albanian road at golden hour. Caption tells the story \u2014 pride, independence, what it means to own your first car.",
+      "caption": "In Albania, your first car is never just a car. It's the first thing that's really yours. What was yours? Drop the model in the comments \ud83d\udc47",
+      "hashtags": [
+        "#superalto #albania #firstcar #independence #tirana #balkans"
+      ],
+      "status": "Draft",
+      "slide_count": 0,
+      "slides": [],
+      "ad_settings": {
+        "platforms": ["Instagram", "TikTok"],
+        "audience": {
+          "locations": ["AL", "XK", "ME", "GR", "IN"],
+          "age_range": "22\u201345",
+          "gender": "All",
+          "interests": [
+            "cars",
+            "automotive",
+            "car buying",
+            "Albania",
+            "used cars",
+            "Balkans"
+          ]
+        },
+        "cta": "superalto.ai \u2192 link in bio"
+      }
+    },
+    {
+      "day": 7,
+      "id": "SA_007",
+      "month": "Month 1",
+      "week": "Week 1",
+      "week_theme": "The Chaos of Car Hunting in Albania",
+      "day_of_week": "Sunday",
+      "content_type": "Story / Repurpose",
+      "content_style": "Engagement",
+      "hook": "Repurpose the highest-performing post from this week.",
+      "content_description": "Reshare best post as a Story. Add poll if it was a debate post.",
+      "caption": "[Best of Week 1 \u2014 reshared]",
+      "hashtags": ["#superalto #albania"],
+      "status": "Draft",
+      "slide_count": 0,
+      "slides": [],
+      "ad_settings": {
+        "platforms": ["Instagram", "TikTok"],
+        "audience": {
+          "locations": ["AL", "XK", "ME", "GR", "IN"],
+          "age_range": "22\u201345",
+          "gender": "All",
+          "interests": [
+            "cars",
+            "automotive",
+            "car buying",
+            "Albania",
+            "used cars",
+            "Balkans"
+          ]
+        },
+        "cta": "superalto.ai \u2192 link in bio"
+      }
+    },
+    {
+      "day": 8,
+      "id": "SA_008",
+      "month": "Month 1",
+      "week": "Week 2",
+      "week_theme": "The SuperAlto Difference",
+      "day_of_week": "Monday",
+      "content_type": "Reel",
+      "content_style": "Pattern Interrupt",
+      "hook": "Cars in Kosovo are 25% cheaper than Albania. Here's why nobody talks about it.",
+      "content_description": "Explanation of import tax structures, demand curves, and Kosovo market advantage. Ends with SuperAlto cross-market search demo.",
+      "caption": "Most Albanian buyers never check Kosovo. Now you know why that's a mistake. Search all Balkan markets in one place \u2192 SuperAlto.ai",
+      "hashtags": ["#superalto #kosovo #albania #carprices #balkans #usedcars"],
+      "status": "Draft",
+      "slide_count": 0,
+      "slides": [],
+      "ad_settings": {
+        "platforms": ["Instagram", "TikTok"],
+        "audience": {
+          "locations": ["AL", "XK", "ME", "GR", "IN"],
+          "age_range": "22\u201345",
+          "gender": "All",
+          "interests": [
+            "cars",
+            "automotive",
+            "car buying",
+            "Albania",
+            "used cars",
+            "Balkans"
+          ]
+        },
+        "cta": "superalto.ai \u2192 link in bio"
+      }
+    },
+    {
+      "day": 9,
+      "id": "SA_009",
+      "month": "Month 1",
+      "week": "Week 2",
+      "week_theme": "The SuperAlto Difference",
+      "day_of_week": "Tuesday",
+      "content_type": "Carousel",
+      "content_style": "Education",
+      "hook": "How to spot a scam car listing in Albania \u2014 in 30 seconds",
+      "content_description": "Red flag checklist for Albanian car buyers. High save value.",
+      "caption": "Screenshot this. Every single one. SuperAlto shows verified listings. Start your search there. \u2192 superalto.ai",
+      "hashtags": ["#superalto #carbuying #albania #scam #usedcars #tips"],
+      "status": "Draft",
+      "slide_count": 7,
+      "slides": [
+        {
+          "slide": 1,
+          "type": "hook",
+          "text": "These are the red flags. Screenshot this."
+        },
+        {
+          "slide": 2,
+          "type": "red_flag",
+          "text": "'If it's too good, someone paid the difference.'"
+        },
+        {
+          "slide": 3,
+          "type": "red_flag",
+          "text": "Always ask before anything else."
+        },
+        {
+          "slide": 4,
+          "type": "red_flag",
+          "text": "They're hiding something."
+        },
+        {
+          "slide": 5,
+          "type": "red_flag",
+          "text": "Dealers with nothing to hide, hide nothing."
+        },
+        {
+          "slide": 6,
+          "type": "red_flag",
+          "text": "Check the pedals and steering wheel."
+        },
+        {
+          "slide": 7,
+          "type": "cta",
+          "text": "Start your search there. \u2192 SuperAlto.ai"
+        }
+      ],
+      "ad_settings": {
+        "platforms": ["Instagram", "TikTok"],
+        "audience": {
+          "locations": ["AL", "XK", "ME", "GR", "IN"],
+          "age_range": "22\u201345",
+          "gender": "All",
+          "interests": [
+            "cars",
+            "automotive",
+            "car buying",
+            "Albania",
+            "used cars",
+            "Balkans"
+          ]
+        },
+        "cta": "superalto.ai \u2192 link in bio"
+      }
+    },
+    {
+      "day": 10,
+      "id": "SA_010",
+      "month": "Month 1",
+      "week": "Week 2",
+      "week_theme": "The SuperAlto Difference",
+      "day_of_week": "Wednesday",
+      "content_type": "Reel",
+      "content_style": "Relatable",
+      "hook": "You: I just need something reliable. Your uncle: I know a guy.",
+      "content_description": "Comedic skit \u2014 car buying advice from well-meaning uncle who confidently knows the worst things. End cut: 'Skip the uncle. Use SuperAlto.'",
+      "caption": "We love the uncle. We do not trust the uncle's car advice. SuperAlto.ai \u2192 link in bio. \ud83d\ude02",
+      "hashtags": ["#superalto #albania #carhumor #uncle #usedcars #balkans"],
+      "status": "Draft",
+      "slide_count": 0,
+      "slides": [],
+      "ad_settings": {
+        "platforms": ["Instagram", "TikTok"],
+        "audience": {
+          "locations": ["AL", "XK", "ME", "GR", "IN"],
+          "age_range": "22\u201345",
+          "gender": "All",
+          "interests": [
+            "cars",
+            "automotive",
+            "car buying",
+            "Albania",
+            "used cars",
+            "Balkans"
+          ]
+        },
+        "cta": "superalto.ai \u2192 link in bio"
+      }
+    },
+    {
+      "day": 11,
+      "id": "SA_011",
+      "month": "Month 1",
+      "week": "Week 2",
+      "week_theme": "The SuperAlto Difference",
+      "day_of_week": "Thursday",
+      "content_type": "Story",
+      "content_style": "Market Update",
+      "hook": "This week on SuperAlto: new cars listed across 4 countries \ud83d\udd25",
+      "content_description": "3-part Story: Weekly listing count \u2192 Most searched car of the week + best listing \u2192 Swipe up to view listing.",
+      "caption": "Fresh listings every day. Check what's new on SuperAlto.ai",
+      "hashtags": ["#superalto #cars #albania"],
+      "status": "Draft",
+      "slide_count": 3,
+      "slides": [
+        {
+          "slide": 1,
+          "type": "update",
+          "text": "This week on SuperAlto: [X] new cars listed across 4 countries \ud83d\udd25"
+        },
+        {
+          "slide": 2,
+          "type": "highlight",
+          "text": "Most searched car this week: [Model]. Here's the best listing we found."
+        },
+        {
+          "slide": 3,
+          "type": "cta",
+          "text": "Swipe up \u2192 see listing on SuperAlto.ai"
+        }
+      ],
+      "ad_settings": {
+        "platforms": ["Instagram", "TikTok"],
+        "audience": {
+          "locations": ["AL", "XK", "ME", "GR", "IN"],
+          "age_range": "22\u201345",
+          "gender": "All",
+          "interests": [
+            "cars",
+            "automotive",
+            "car buying",
+            "Albania",
+            "used cars",
+            "Balkans"
+          ]
+        },
+        "cta": "superalto.ai \u2192 link in bio"
+      }
+    },
+    {
+      "day": 12,
+      "id": "SA_012",
+      "month": "Month 1",
+      "week": "Week 2",
+      "week_theme": "The SuperAlto Difference",
+      "day_of_week": "Friday",
+      "content_type": "Reel",
+      "content_style": "Meme / Double Meaning",
+      "hook": "Manual is harder to learn. But more satisfying once you get it.",
+      "content_description": "Someone struggling to drive manual \u2014 stalling, grinding gears \u2014 then finally smooth. Metaphor for learning a real skill. SuperAlto: 12,000+ listings.",
+      "caption": "Some things in life are worth the effort. Manual transmission is one of them. \ud83d\ude97 Tag someone who gave up on manual too early.",
+      "hashtags": ["#superalto #manual #cars #albania #driving #carhumor"],
+      "status": "Draft",
+      "slide_count": 0,
+      "slides": [],
+      "ad_settings": {
+        "platforms": ["Instagram", "TikTok"],
+        "audience": {
+          "locations": ["AL", "XK", "ME", "GR", "IN"],
+          "age_range": "22\u201345",
+          "gender": "All",
+          "interests": [
+            "cars",
+            "automotive",
+            "car buying",
+            "Albania",
+            "used cars",
+            "Balkans"
+          ]
+        },
+        "cta": "superalto.ai \u2192 link in bio"
+      }
+    },
+    {
+      "day": 13,
+      "id": "SA_013",
+      "month": "Month 1",
+      "week": "Week 2",
+      "week_theme": "The SuperAlto Difference",
+      "day_of_week": "Saturday",
+      "content_type": "Carousel",
+      "content_style": "Data",
+      "hook": "The 5 most popular cars in Albania right now \u2014 and what they actually cost",
+      "content_description": "Top 5 searched models on SuperAlto with price ranges, year ranges, and one-line verdict each.",
+      "caption": "Data pulled directly from SuperAlto listings. These are the real numbers. superalto.ai \u2192 link in bio.",
+      "hashtags": [
+        "#superalto #albania #carprices #usedcars #vwgolf #bmw #mercedes"
+      ],
+      "status": "Draft",
+      "slide_count": 6,
+      "slides": [
+        {
+          "slide": 1,
+          "type": "hook",
+          "text": "Data from SuperAlto \u2014 real listings, real prices."
+        },
+        {
+          "slide": 2,
+          "type": "car",
+          "text": "Most liquid car in the Balkans. \u20ac6,500\u2013\u20ac11,000. Easy to buy, easy to sell."
+        },
+        {
+          "slide": 3,
+          "type": "car",
+          "text": "Dominates Albanian roads. \u20ac9,000\u2013\u20ac16,000. High demand, holds value."
+        },
+        {
+          "slide": 4,
+          "type": "car",
+          "text": "Premium of choice. \u20ac10,000\u2013\u20ac18,000. Strong resale."
+        },
+        {
+          "slide": 5,
+          "type": "car",
+          "text": "Reliability king. \u20ac10,000\u2013\u20ac14,000. Best for long-term ownership."
+        },
+        {
+          "slide": 6,
+          "type": "cta",
+          "text": "One search. Every listing. superalto.ai"
+        }
+      ],
+      "ad_settings": {
+        "platforms": ["Instagram", "TikTok"],
+        "audience": {
+          "locations": ["AL", "XK", "ME", "GR", "IN"],
+          "age_range": "22\u201345",
+          "gender": "All",
+          "interests": [
+            "cars",
+            "automotive",
+            "car buying",
+            "Albania",
+            "used cars",
+            "Balkans"
+          ]
+        },
+        "cta": "superalto.ai \u2192 link in bio"
+      }
+    },
+    {
+      "day": 14,
+      "id": "SA_014",
+      "month": "Month 1",
+      "week": "Week 2",
+      "week_theme": "The SuperAlto Difference",
+      "day_of_week": "Sunday",
+      "content_type": "Story",
+      "content_style": "Engagement",
+      "hook": "Ask me anything about buying a car in Albania.",
+      "content_description": "Q&A sticker. Answer 5\u20137 questions as story replies. Save the best for future content.",
+      "caption": "Drop your question \u2014 buying, selling, cross-market, anything.",
+      "hashtags": ["#superalto #qanda #albania #cars"],
+      "status": "Draft",
+      "slide_count": 0,
+      "slides": [],
+      "ad_settings": {
+        "platforms": ["Instagram", "TikTok"],
+        "audience": {
+          "locations": ["AL", "XK", "ME", "GR", "IN"],
+          "age_range": "22\u201345",
+          "gender": "All",
+          "interests": [
+            "cars",
+            "automotive",
+            "car buying",
+            "Albania",
+            "used cars",
+            "Balkans"
+          ]
+        },
+        "cta": "superalto.ai \u2192 link in bio"
+      }
+    },
+    {
+      "day": 15,
+      "id": "SA_015",
+      "month": "Month 1",
+      "week": "Week 3",
+      "week_theme": "Stories & Identity",
+      "day_of_week": "Monday",
+      "content_type": "Reel",
+      "content_style": "Emotional",
+      "hook": "Some people remember their first kiss. I remember the smell of my first car.",
+      "content_description": "Nostalgic montage \u2014 old Albanian car scenes, someone polishing their first car, a first solo drive. No hard sell. Just brand feeling.",
+      "caption": "The smell of the seats. The sound of the engine. The feeling the first time it was actually yours. What was your first car? \ud83d\udc47",
+      "hashtags": ["#superalto #firstcar #albania #nostalgia #cars #memories"],
+      "status": "Draft",
+      "slide_count": 0,
+      "slides": [],
+      "ad_settings": {
+        "platforms": ["Instagram", "TikTok"],
+        "audience": {
+          "locations": ["AL", "XK", "ME", "GR", "IN"],
+          "age_range": "22\u201345",
+          "gender": "All",
+          "interests": [
+            "cars",
+            "automotive",
+            "car buying",
+            "Albania",
+            "used cars",
+            "Balkans"
+          ]
+        },
+        "cta": "superalto.ai \u2192 link in bio"
+      }
+    },
+    {
+      "day": 16,
+      "id": "SA_016",
+      "month": "Month 1",
+      "week": "Week 3",
+      "week_theme": "Stories & Identity",
+      "day_of_week": "Tuesday",
+      "content_type": "Carousel",
+      "content_style": "Education",
+      "hook": "Before you buy a used car in Albania \u2014 read this",
+      "content_description": "Checklist every Albanian car buyer needs. High save rate expected.",
+      "caption": "Save this. Share this with someone about to buy a car. SuperAlto.ai \u2014 start your research there.",
+      "hashtags": ["#superalto #carbuying #albania #usedcars #checklist #tips"],
+      "status": "Draft",
+      "slide_count": 7,
+      "slides": [
+        {
+          "slide": 1,
+          "type": "hook",
+          "text": "Read this before you do anything else."
+        },
+        {
+          "slide": 2,
+          "type": "tip",
+          "text": "CARFAX or local equivalent. Non-negotiable."
+        },
+        {
+          "slide": 3,
+          "type": "tip",
+          "text": "Many listed cars in Albania have liens. Always verify."
+        },
+        {
+          "slide": 4,
+          "type": "tip",
+          "text": "Not just city roads. You need to feel it at speed."
+        },
+        {
+          "slide": 5,
+          "type": "tip",
+          "text": "Not the seller's. Not your uncle's. Yours."
+        },
+        {
+          "slide": 6,
+          "type": "tip",
+          "text": "Not before. Inspection gives you the leverage."
+        },
+        {
+          "slide": 7,
+          "type": "cta",
+          "text": "All listings in one place. The research starts there."
+        }
+      ],
+      "ad_settings": {
+        "platforms": ["Instagram", "TikTok"],
+        "audience": {
+          "locations": ["AL", "XK", "ME", "GR", "IN"],
+          "age_range": "22\u201345",
+          "gender": "All",
+          "interests": [
+            "cars",
+            "automotive",
+            "car buying",
+            "Albania",
+            "used cars",
+            "Balkans"
+          ]
+        },
+        "cta": "superalto.ai \u2192 link in bio"
+      }
+    },
+    {
+      "day": 17,
+      "id": "SA_017",
+      "month": "Month 1",
+      "week": "Week 3",
+      "week_theme": "Stories & Identity",
+      "day_of_week": "Wednesday",
+      "content_type": "Reel",
+      "content_style": "Meme / Albanian Culture",
+      "hook": "Albanian car buyer starter pack:",
+      "content_description": "Quick-cut meme: 3 uncles who know a guy \u2705, opinion on every listing \u2705, 'That price is a joke' \u2705, 45 min negotiation to save \u20ac50 \u2705, buys first uncle's suggestion anyway \u2705",
+      "caption": "Did we get it right? \ud83d\ude02 Tag the uncle in your life. Skip the consultation. SuperAlto.ai \u2192 link in bio.",
+      "hashtags": [
+        "#superalto #albania #albanianculture #carhumor #balkans #relatable"
+      ],
+      "status": "Draft",
+      "slide_count": 0,
+      "slides": [],
+      "ad_settings": {
+        "platforms": ["Instagram", "TikTok"],
+        "audience": {
+          "locations": ["AL", "XK", "ME", "GR", "IN"],
+          "age_range": "22\u201345",
+          "gender": "All",
+          "interests": [
+            "cars",
+            "automotive",
+            "car buying",
+            "Albania",
+            "used cars",
+            "Balkans"
+          ]
+        },
+        "cta": "superalto.ai \u2192 link in bio"
+      }
+    },
+    {
+      "day": 18,
+      "id": "SA_018",
+      "month": "Month 1",
+      "week": "Week 3",
+      "week_theme": "Stories & Identity",
+      "day_of_week": "Thursday",
+      "content_type": "Story",
+      "content_style": "Behind the Scenes",
+      "hook": "How SuperAlto actually works \u2014 60 second explainer",
+      "content_description": "Screen recording showing aggregation from 4 countries. Q&A sticker: 'Ask us anything about the platform'",
+      "caption": "We aggregate listings from Albania, Kosovo, Montenegro and Greece. One search. Real-time.",
+      "hashtags": ["#superalto #behindthescenes #tech #albania"],
+      "status": "Draft",
+      "slide_count": 3,
+      "slides": [
+        {
+          "slide": 1,
+          "type": "explainer",
+          "text": "60 second explainer \u2014 aggregation from 4 countries"
+        },
+        {
+          "slide": 2,
+          "type": "demo",
+          "text": "Screen recording: searching across Albania, Kosovo, Montenegro, Greece simultaneously"
+        },
+        {
+          "slide": 3,
+          "type": "cta",
+          "text": "Ask us anything about the platform \ud83d\udc47"
+        }
+      ],
+      "ad_settings": {
+        "platforms": ["Instagram", "TikTok"],
+        "audience": {
+          "locations": ["AL", "XK", "ME", "GR", "IN"],
+          "age_range": "22\u201345",
+          "gender": "All",
+          "interests": [
+            "cars",
+            "automotive",
+            "car buying",
+            "Albania",
+            "used cars",
+            "Balkans"
+          ]
+        },
+        "cta": "superalto.ai \u2192 link in bio"
+      }
+    },
+    {
+      "day": 19,
+      "id": "SA_019",
+      "month": "Month 1",
+      "week": "Week 3",
+      "week_theme": "Stories & Identity",
+      "day_of_week": "Friday",
+      "content_type": "Reel",
+      "content_style": "Curiosity",
+      "hook": "The most underrated car in Albania right now costs \u20ac6,200. Here it is.",
+      "content_description": "Walk through a specific SuperAlto listing \u2014 a car punching above its price. Explain why it's undervalued.",
+      "caption": "Not every deal is obvious. But they're there if you know where to look. SuperAlto.ai \u2192 link in bio.",
+      "hashtags": [
+        "#superalto #carbargain #albania #usedcars #deal #carbuying"
+      ],
+      "status": "Draft",
+      "slide_count": 0,
+      "slides": [],
+      "ad_settings": {
+        "platforms": ["Instagram", "TikTok"],
+        "audience": {
+          "locations": ["AL", "XK", "ME", "GR", "IN"],
+          "age_range": "22\u201345",
+          "gender": "All",
+          "interests": [
+            "cars",
+            "automotive",
+            "car buying",
+            "Albania",
+            "used cars",
+            "Balkans"
+          ]
+        },
+        "cta": "superalto.ai \u2192 link in bio"
+      }
+    },
+    {
+      "day": 20,
+      "id": "SA_020",
+      "month": "Month 1",
+      "week": "Week 3",
+      "week_theme": "Stories & Identity",
+      "day_of_week": "Saturday",
+      "content_type": "Feed Post",
+      "content_style": "Debate",
+      "hook": "BMW > Mercedes in Albania. Fight me.",
+      "content_description": "Bold statement feed post. Beautiful car photo. Invite debate in comments.",
+      "caption": "The BMW has dominated Albanian roads for 20 years and nobody is talking about why. Drop your answer below: BMW or Mercedes? \ud83d\ude98",
+      "hashtags": ["#superalto #bmw #mercedes #albania #debate #cars #balkans"],
+      "status": "Draft",
+      "slide_count": 0,
+      "slides": [],
+      "ad_settings": {
+        "platforms": ["Instagram", "TikTok"],
+        "audience": {
+          "locations": ["AL", "XK", "ME", "GR", "IN"],
+          "age_range": "22\u201345",
+          "gender": "All",
+          "interests": [
+            "cars",
+            "automotive",
+            "car buying",
+            "Albania",
+            "used cars",
+            "Balkans"
+          ]
+        },
+        "cta": "superalto.ai \u2192 link in bio"
+      }
+    },
+    {
+      "day": 21,
+      "id": "SA_021",
+      "month": "Month 1",
+      "week": "Week 3",
+      "week_theme": "Stories & Identity",
+      "day_of_week": "Sunday",
+      "content_type": "Story / Repurpose",
+      "content_style": "Engagement",
+      "hook": "Repurpose best performing post + poll sticker",
+      "content_description": "Reshare best post from Week 3 as a Story with poll sticker.",
+      "caption": "[Best of Week 3 \u2014 reshared]",
+      "hashtags": ["#superalto #albania"],
+      "status": "Draft",
+      "slide_count": 0,
+      "slides": [],
+      "ad_settings": {
+        "platforms": ["Instagram", "TikTok"],
+        "audience": {
+          "locations": ["AL", "XK", "ME", "GR", "IN"],
+          "age_range": "22\u201345",
+          "gender": "All",
+          "interests": [
+            "cars",
+            "automotive",
+            "car buying",
+            "Albania",
+            "used cars",
+            "Balkans"
+          ]
+        },
+        "cta": "superalto.ai \u2192 link in bio"
+      }
+    },
+    {
+      "day": 22,
+      "id": "SA_022",
+      "month": "Month 1",
+      "week": "Week 4",
+      "week_theme": "Cross-Market Month Close",
+      "day_of_week": "Monday",
+      "content_type": "Reel",
+      "content_style": "Data / Insight",
+      "hook": "I audited 50 Albanian car listings. Here's what I actually found.",
+      "content_description": "Breakdown of real SuperAlto data \u2014 missing VINs, price inconsistencies, duplicate posts, which platform had most genuine deals.",
+      "caption": "The data is clear. Start on SuperAlto before you start anywhere else. superalto.ai \u2192 link in bio.",
+      "hashtags": [
+        "#superalto #cardata #albania #usedcars #transparency #carbuying"
+      ],
+      "status": "Draft",
+      "slide_count": 0,
+      "slides": [],
+      "ad_settings": {
+        "platforms": ["Instagram", "TikTok"],
+        "audience": {
+          "locations": ["AL", "XK", "ME", "GR", "IN"],
+          "age_range": "22\u201345",
+          "gender": "All",
+          "interests": [
+            "cars",
+            "automotive",
+            "car buying",
+            "Albania",
+            "used cars",
+            "Balkans"
+          ]
+        },
+        "cta": "superalto.ai \u2192 link in bio"
+      }
+    },
+    {
+      "day": 23,
+      "id": "SA_023",
+      "month": "Month 1",
+      "week": "Week 4",
+      "week_theme": "Cross-Market Month Close",
+      "day_of_week": "Tuesday",
+      "content_type": "Carousel",
+      "content_style": "Social Proof",
+      "hook": "User found their car in 8 minutes. Here's exactly how.",
+      "content_description": "Walk through a real user journey \u2014 search \u2192 filters \u2192 listing found \u2192 saved \u2192 contact dealer. Timestamps on each step.",
+      "caption": "8 minutes. That's all it took. SuperAlto.ai \u2014 free to use, no sign-up required.",
+      "hashtags": [
+        "#superalto #socialproof #albania #usedcars #carbuying #testimonial"
+      ],
+      "status": "Draft",
+      "slide_count": 7,
+      "slides": [
+        {
+          "slide": 1,
+          "type": "hook",
+          "text": "A real SuperAlto user story."
+        },
+        {
+          "slide": 2,
+          "type": "step",
+          "text": "Typed: 'VW Golf, under \u20ac10,000, Albania + Kosovo'"
+        },
+        {
+          "slide": 3,
+          "type": "step",
+          "text": "Set: max 130K km, 2015 or newer, diesel only"
+        },
+        {
+          "slide": 4,
+          "type": "step",
+          "text": "Kosovo listing: 2016 Golf, 98K km, \u20ac8,200. Perfect."
+        },
+        {
+          "slide": 5,
+          "type": "step",
+          "text": "Saved the listing. Screenshotted the VIN."
+        },
+        {
+          "slide": 6,
+          "type": "step",
+          "text": "Called the dealer. Booked a test drive."
+        },
+        {
+          "slide": 7,
+          "type": "cta",
+          "text": "SuperAlto.ai \u2014 free, no sign-up required."
+        }
+      ],
+      "ad_settings": {
+        "platforms": ["Instagram", "TikTok"],
+        "audience": {
+          "locations": ["AL", "XK", "ME", "GR", "IN"],
+          "age_range": "22\u201345",
+          "gender": "All",
+          "interests": [
+            "cars",
+            "automotive",
+            "car buying",
+            "Albania",
+            "used cars",
+            "Balkans"
+          ]
+        },
+        "cta": "superalto.ai \u2192 link in bio"
+      }
+    },
+    {
+      "day": 24,
+      "id": "SA_024",
+      "month": "Month 1",
+      "week": "Week 4",
+      "week_theme": "Cross-Market Month Close",
+      "day_of_week": "Wednesday",
+      "content_type": "Reel",
+      "content_style": "Meme",
+      "hook": "She said she doesn't care what car we get. She cares.",
+      "content_description": "Partner who 'doesn't care' having very specific opinions at every decision point. 'Find one you both agree on. SuperAlto.ai'",
+      "caption": "We've all been here. \ud83d\ude02 Tag your partner.",
+      "hashtags": ["#superalto #couples #cars #albania #relatable #carhumor"],
+      "status": "Draft",
+      "slide_count": 0,
+      "slides": [],
+      "ad_settings": {
+        "platforms": ["Instagram", "TikTok"],
+        "audience": {
+          "locations": ["AL", "XK", "ME", "GR", "IN"],
+          "age_range": "22\u201345",
+          "gender": "All",
+          "interests": [
+            "cars",
+            "automotive",
+            "car buying",
+            "Albania",
+            "used cars",
+            "Balkans"
+          ]
+        },
+        "cta": "superalto.ai \u2192 link in bio"
+      }
+    },
+    {
+      "day": 25,
+      "id": "SA_025",
+      "month": "Month 1",
+      "week": "Week 4",
+      "week_theme": "Cross-Market Month Close",
+      "day_of_week": "Thursday",
+      "content_type": "Story",
+      "content_style": "Weekly Feature",
+      "hook": "This week's best SuperAlto find",
+      "content_description": "Showcase standout listing \u2014 context on why it's good value. Link sticker to listing.",
+      "caption": "Found on SuperAlto. This week's pick \u2014 see why it's worth a look.",
+      "hashtags": ["#superalto #carbargain #albania"],
+      "status": "Draft",
+      "slide_count": 3,
+      "slides": [
+        {
+          "slide": 1,
+          "type": "feature",
+          "text": "Found on SuperAlto \u2014 this week's standout value pick"
+        },
+        {
+          "slide": 2,
+          "type": "specs",
+          "text": "Model, year, km, price \u2014 why it punches above its price"
+        },
+        {
+          "slide": 3,
+          "type": "cta",
+          "text": "SuperAlto.ai \u2192 link sticker"
+        }
+      ],
+      "ad_settings": {
+        "platforms": ["Instagram", "TikTok"],
+        "audience": {
+          "locations": ["AL", "XK", "ME", "GR", "IN"],
+          "age_range": "22\u201345",
+          "gender": "All",
+          "interests": [
+            "cars",
+            "automotive",
+            "car buying",
+            "Albania",
+            "used cars",
+            "Balkans"
+          ]
+        },
+        "cta": "superalto.ai \u2192 link in bio"
+      }
+    },
+    {
+      "day": 26,
+      "id": "SA_026",
+      "month": "Month 1",
+      "week": "Week 4",
+      "week_theme": "Cross-Market Month Close",
+      "day_of_week": "Friday",
+      "content_type": "Reel",
+      "content_style": "Conversion",
+      "hook": "Stop opening 10 browser tabs. Open one.",
+      "content_description": "Side by side \u2014 10 tabs of separate car sites vs. one SuperAlto search. Clean, fast, direct.",
+      "caption": "SuperAlto.ai \u2014 every car listing in Albania, Kosovo, Montenegro, Greece. Free. Link in bio.",
+      "hashtags": ["#superalto #carbuying #albania #kosovo #onesearch #free"],
+      "status": "Draft",
+      "slide_count": 0,
+      "slides": [],
+      "ad_settings": {
+        "platforms": ["Instagram", "TikTok"],
+        "audience": {
+          "locations": ["AL", "XK", "ME", "GR", "IN"],
+          "age_range": "22\u201345",
+          "gender": "All",
+          "interests": [
+            "cars",
+            "automotive",
+            "car buying",
+            "Albania",
+            "used cars",
+            "Balkans"
+          ]
+        },
+        "cta": "superalto.ai \u2192 link in bio"
+      }
+    },
+    {
+      "day": 27,
+      "id": "SA_027",
+      "month": "Month 1",
+      "week": "Week 4",
+      "week_theme": "Cross-Market Month Close",
+      "day_of_week": "Saturday",
+      "content_type": "Carousel",
+      "content_style": "Month Wrap",
+      "hook": "SuperAlto in numbers \u2014 Month 1",
+      "content_description": "Platform data from Month 1 \u2014 listings, searches, countries, top models, best deals.",
+      "caption": "Month 1 done. Here's what Albanian car buyers searched for most. Month 2 is going to be bigger. superalto.ai",
+      "hashtags": ["#superalto #monthwrap #albania #cardata #balkans"],
+      "status": "Draft",
+      "slide_count": 6,
+      "slides": [
+        {
+          "slide": 1,
+          "type": "hook",
+          "text": "Here's what we tracked."
+        },
+        {
+          "slide": 2,
+          "type": "stat",
+          "text": "[X] listings across 4 countries"
+        },
+        {
+          "slide": 3,
+          "type": "stat",
+          "text": "[X] new listings added this month"
+        },
+        {
+          "slide": 4,
+          "type": "stat",
+          "text": "[Model] \u2014 searched [X] times"
+        },
+        {
+          "slide": 5,
+          "type": "stat",
+          "text": "Albania \ud83c\udde6\ud83c\uddf1 Kosovo \ud83c\uddfd\ud83c\uddf0 Montenegro \ud83c\uddf2\ud83c\uddea Greece \ud83c\uddec\ud83c\uddf7"
+        },
+        {
+          "slide": 6,
+          "type": "cta",
+          "text": "More markets. More deals. superalto.ai"
+        }
+      ],
+      "ad_settings": {
+        "platforms": ["Instagram", "TikTok"],
+        "audience": {
+          "locations": ["AL", "XK", "ME", "GR", "IN"],
+          "age_range": "22\u201345",
+          "gender": "All",
+          "interests": [
+            "cars",
+            "automotive",
+            "car buying",
+            "Albania",
+            "used cars",
+            "Balkans"
+          ]
+        },
+        "cta": "superalto.ai \u2192 link in bio"
+      }
+    },
+    {
+      "day": 28,
+      "id": "SA_028",
+      "month": "Month 1",
+      "week": "Week 4",
+      "week_theme": "Cross-Market Month Close",
+      "day_of_week": "Sunday",
+      "content_type": "Story",
+      "content_style": "Engagement",
+      "hook": "Best-of stories from Month 1",
+      "content_description": "Reshare top posts from Month 1. Poll: 'What should we cover next month?'",
+      "caption": "Thank you for Month 1. Month 2 is going to hit different.",
+      "hashtags": ["#superalto #albania"],
+      "status": "Draft",
+      "slide_count": 0,
+      "slides": [],
+      "ad_settings": {
+        "platforms": ["Instagram", "TikTok"],
+        "audience": {
+          "locations": ["AL", "XK", "ME", "GR", "IN"],
+          "age_range": "22\u201345",
+          "gender": "All",
+          "interests": [
+            "cars",
+            "automotive",
+            "car buying",
+            "Albania",
+            "used cars",
+            "Balkans"
+          ]
+        },
+        "cta": "superalto.ai \u2192 link in bio"
+      }
+    },
+    {
+      "day": 29,
+      "id": "SA_029",
+      "month": "Month 1",
+      "week": "Week 5",
+      "week_theme": "The Market Intelligence Week",
+      "day_of_week": "Monday",
+      "content_type": "Story",
+      "content_style": "Engagement",
+      "hook": "Poll: What should we cover next month?",
+      "content_description": "4-option poll \u2014 let audience choose direction for Month 2.",
+      "caption": "You decide what we cover next. Vote below \ud83d\udc47",
+      "hashtags": ["#superalto #community #albania"],
+      "status": "Draft",
+      "slide_count": 0,
+      "slides": [],
+      "ad_settings": {
+        "platforms": ["Instagram", "TikTok"],
+        "audience": {
+          "locations": ["AL", "XK", "ME", "GR", "IN"],
+          "age_range": "22\u201345",
+          "gender": "All",
+          "interests": [
+            "cars",
+            "automotive",
+            "car buying",
+            "Albania",
+            "used cars",
+            "Balkans"
+          ]
+        },
+        "cta": "superalto.ai \u2192 link in bio"
+      }
+    },
+    {
+      "day": 30,
+      "id": "SA_030",
+      "month": "Month 1",
+      "week": "Week 5",
+      "week_theme": "The Market Intelligence Week",
+      "day_of_week": "Tuesday",
+      "content_type": "Story",
+      "content_style": "Engagement",
+      "hook": "Thank followers for Month 1",
+      "content_description": "Genuine thank you to the community. Share follower milestone. Preview of Month 2.",
+      "caption": "Month 1 complete. Thank you for every comment, share, and save. Month 2 starts Monday.",
+      "hashtags": ["#superalto #albania #community"],
+      "status": "Draft",
+      "slide_count": 0,
+      "slides": [],
+      "ad_settings": {
+        "platforms": ["Instagram", "TikTok"],
+        "audience": {
+          "locations": ["AL", "XK", "ME", "GR", "IN"],
+          "age_range": "22\u201345",
+          "gender": "All",
+          "interests": [
+            "cars",
+            "automotive",
+            "car buying",
+            "Albania",
+            "used cars",
+            "Balkans"
+          ]
+        },
+        "cta": "superalto.ai \u2192 link in bio"
+      }
+    },
+    {
+      "day": 31,
+      "id": "SA_031",
+      "month": "Month 2",
+      "week": "Week 5",
+      "week_theme": "The Market Intelligence Week",
+      "day_of_week": "Wednesday",
+      "content_type": "Reel",
+      "content_style": "Pattern Interrupt",
+      "hook": "The car listing trick dealers use that costs you \u20ac2,000. Stop falling for it.",
+      "content_description": "How dealers post cars under market to attract interest, then add fees and extras. How to protect yourself \u2014 cross-reference on SuperAlto before any meeting.",
+      "caption": "Dealers know you haven't checked other markets. SuperAlto exists so you have. superalto.ai \u2192 link in bio",
+      "hashtags": ["#superalto #cardealer #albania #usedcars #tips #carbuying"],
+      "status": "Draft",
+      "slide_count": 0,
+      "slides": [],
+      "ad_settings": {
+        "platforms": ["Instagram", "TikTok"],
+        "audience": {
+          "locations": ["AL", "XK", "ME", "GR", "IN"],
+          "age_range": "22\u201345",
+          "gender": "All",
+          "interests": [
+            "cars",
+            "automotive",
+            "car buying",
+            "Albania",
+            "used cars",
+            "Balkans"
+          ]
+        },
+        "cta": "superalto.ai \u2192 link in bio"
+      }
+    },
+    {
+      "day": 32,
+      "id": "SA_032",
+      "month": "Month 2",
+      "week": "Week 5",
+      "week_theme": "The Market Intelligence Week",
+      "day_of_week": "Thursday",
+      "content_type": "Carousel",
+      "content_style": "Data",
+      "hook": "Kosovo vs. Albania \u2014 side-by-side for 5 car models. The difference will surprise you.",
+      "content_description": "5 car comparisons \u2014 same model, same year range, Albania price vs Kosovo price.",
+      "caption": "On average: Kosovo is 15\u201325% cheaper. SuperAlto searches both. superalto.ai \u2192 link in bio.",
+      "hashtags": [
+        "#superalto #kosovo #albania #carprices #comparison #usedcars"
+      ],
+      "status": "Draft",
+      "slide_count": 6,
+      "slides": [
+        {
+          "slide": 1,
+          "type": "hook",
+          "text": "Kosovo vs. Albania \u2014 the real numbers."
+        },
+        {
+          "slide": 2,
+          "type": "comparison",
+          "text": "Albania: \u20ac11,500 / Kosovo: \u20ac9,200 \u2192 Save \u20ac2,300"
+        },
+        {
+          "slide": 3,
+          "type": "comparison",
+          "text": "Albania: \u20ac8,900 / Kosovo: \u20ac7,400 \u2192 Save \u20ac1,500"
+        },
+        {
+          "slide": 4,
+          "type": "comparison",
+          "text": "Albania: \u20ac14,500 / Kosovo: \u20ac12,800 \u2192 Save \u20ac1,700"
+        },
+        {
+          "slide": 5,
+          "type": "comparison",
+          "text": "Albania: \u20ac12,000 / Kosovo: \u20ac10,500 \u2192 Save \u20ac1,500"
+        },
+        {
+          "slide": 6,
+          "type": "cta",
+          "text": "SuperAlto searches both markets. superalto.ai"
+        }
+      ],
+      "ad_settings": {
+        "platforms": ["Instagram", "TikTok"],
+        "audience": {
+          "locations": ["AL", "XK", "ME", "GR", "IN"],
+          "age_range": "22\u201345",
+          "gender": "All",
+          "interests": [
+            "cars",
+            "automotive",
+            "car buying",
+            "Albania",
+            "used cars",
+            "Balkans"
+          ]
+        },
+        "cta": "superalto.ai \u2192 link in bio"
+      }
+    },
+    {
+      "day": 33,
+      "id": "SA_033",
+      "month": "Month 2",
+      "week": "Week 5",
+      "week_theme": "The Market Intelligence Week",
+      "day_of_week": "Friday",
+      "content_type": "Reel",
+      "content_style": "Meme / Double Meaning",
+      "hook": "She handles tight corners better than anything I've ever driven.",
+      "content_description": "Beautiful driving footage \u2014 car taking mountain road curve perfectly. 'The right car changes everything.' Cut to SuperAlto search.",
+      "caption": "Find the one that fits. SuperAlto.ai \u2192 link in bio \ud83d\ude97 \ud83d\ude0f What did you think I meant?",
+      "hashtags": [
+        "#superalto #drivingvibes #albania #cars #doublemeaninghumor"
+      ],
+      "status": "Draft",
+      "slide_count": 0,
+      "slides": [],
+      "ad_settings": {
+        "platforms": ["Instagram", "TikTok"],
+        "audience": {
+          "locations": ["AL", "XK", "ME", "GR", "IN"],
+          "age_range": "22\u201345",
+          "gender": "All",
+          "interests": [
+            "cars",
+            "automotive",
+            "car buying",
+            "Albania",
+            "used cars",
+            "Balkans"
+          ]
+        },
+        "cta": "superalto.ai \u2192 link in bio"
+      }
+    },
+    {
+      "day": 34,
+      "id": "SA_034",
+      "month": "Month 2",
+      "week": "Week 5",
+      "week_theme": "The Market Intelligence Week",
+      "day_of_week": "Saturday",
+      "content_type": "Story",
+      "content_style": "Car of the Week",
+      "hook": "\ud83d\ude97 Car of the Week \u2014 found on SuperAlto",
+      "content_description": "Specs, price, location, why it's good value. Link sticker to live listing.",
+      "caption": "This week's best find. See it live on SuperAlto.ai",
+      "hashtags": ["#superalto #caroftheweek #albania"],
+      "status": "Draft",
+      "slide_count": 3,
+      "slides": [
+        {
+          "slide": 1,
+          "type": "feature",
+          "text": "Found on SuperAlto \u2014 best value this week"
+        },
+        {
+          "slide": 2,
+          "type": "specs",
+          "text": "[Model, year, km, price, location]"
+        },
+        {
+          "slide": 3,
+          "type": "cta",
+          "text": "SuperAlto.ai \u2192 link sticker"
+        }
+      ],
+      "ad_settings": {
+        "platforms": ["Instagram", "TikTok"],
+        "audience": {
+          "locations": ["AL", "XK", "ME", "GR", "IN"],
+          "age_range": "22\u201345",
+          "gender": "All",
+          "interests": [
+            "cars",
+            "automotive",
+            "car buying",
+            "Albania",
+            "used cars",
+            "Balkans"
+          ]
+        },
+        "cta": "superalto.ai \u2192 link in bio"
+      }
+    },
+    {
+      "day": 35,
+      "id": "SA_035",
+      "month": "Month 2",
+      "week": "Week 5",
+      "week_theme": "The Market Intelligence Week",
+      "day_of_week": "Sunday",
+      "content_type": "Reel",
+      "content_style": "Debate",
+      "hook": "If you're spending over \u20ac15K on a used car in Albania, you're doing it wrong. Here's why.",
+      "content_description": "Breakdown of Albanian market value curve \u2014 best performance-to-price ratio is \u20ac10\u201315K range.",
+      "caption": "The sweet spot for used cars in Albania is \u20ac8,000\u201314,000. Everything above that is diminishing returns. Fight me in the comments.",
+      "hashtags": [
+        "#superalto #caradvice #albania #carprices #debate #usedcars"
+      ],
+      "status": "Draft",
+      "slide_count": 0,
+      "slides": [],
+      "ad_settings": {
+        "platforms": ["Instagram", "TikTok"],
+        "audience": {
+          "locations": ["AL", "XK", "ME", "GR", "IN"],
+          "age_range": "22\u201345",
+          "gender": "All",
+          "interests": [
+            "cars",
+            "automotive",
+            "car buying",
+            "Albania",
+            "used cars",
+            "Balkans"
+          ]
+        },
+        "cta": "superalto.ai \u2192 link in bio"
+      }
+    },
+    {
+      "day": 36,
+      "id": "SA_036",
+      "month": "Month 2",
+      "week": "Week 6",
+      "week_theme": "The Albanian Car Culture Week",
+      "day_of_week": "Monday",
+      "content_type": "Feed Post",
+      "content_style": "Emotional",
+      "hook": "I saved for 14 months for this car. Every drive feels earned.",
+      "content_description": "Beautiful car photo. Caption: something that's proof of what you worked for.",
+      "caption": "Some cars are just transportation. Some carry the proof of what you worked for. \ud83d\ude97 What did you have to work for? Drop it below.",
+      "hashtags": ["#superalto #albania #hardwork #firstcar #pride #balkans"],
+      "status": "Draft",
+      "slide_count": 0,
+      "slides": [],
+      "ad_settings": {
+        "platforms": ["Instagram", "TikTok"],
+        "audience": {
+          "locations": ["AL", "XK", "ME", "GR", "IN"],
+          "age_range": "22\u201345",
+          "gender": "All",
+          "interests": [
+            "cars",
+            "automotive",
+            "car buying",
+            "Albania",
+            "used cars",
+            "Balkans"
+          ]
+        },
+        "cta": "superalto.ai \u2192 link in bio"
+      }
+    },
+    {
+      "day": 37,
+      "id": "SA_037",
+      "month": "Month 2",
+      "week": "Week 6",
+      "week_theme": "The Albanian Car Culture Week",
+      "day_of_week": "Tuesday",
+      "content_type": "Story",
+      "content_style": "Engagement",
+      "hook": "Re-share best comment from emotional post + poll",
+      "content_description": "Share best comment from Day 36 as Story. Poll: 'What's your next car goal?'",
+      "caption": "The community comes through every time. What's your next goal? \ud83d\ude97",
+      "hashtags": ["#superalto #community #albania"],
+      "status": "Draft",
+      "slide_count": 0,
+      "slides": [],
+      "ad_settings": {
+        "platforms": ["Instagram", "TikTok"],
+        "audience": {
+          "locations": ["AL", "XK", "ME", "GR", "IN"],
+          "age_range": "22\u201345",
+          "gender": "All",
+          "interests": [
+            "cars",
+            "automotive",
+            "car buying",
+            "Albania",
+            "used cars",
+            "Balkans"
+          ]
+        },
+        "cta": "superalto.ai \u2192 link in bio"
+      }
+    },
+    {
+      "day": 38,
+      "id": "SA_038",
+      "month": "Month 2",
+      "week": "Week 6",
+      "week_theme": "The Albanian Car Culture Week",
+      "day_of_week": "Wednesday",
+      "content_type": "Reel",
+      "content_style": "Albanian Culture",
+      "hook": "Things only Albanian car owners understand:",
+      "content_description": "Quick-fire list Reel: Cleanest car in the parking lot \u2705, argued about cars in a language you don't speak \u2705, know what every neighbour's car cost \u2705, parking guidelines are suggestions \u2705, 'the scratch is character' \u2705, Saturday = car wash \u2705",
+      "caption": "Did we miss any? Add yours below \ud83d\udc47\ud83c\udde6\ud83c\uddf1 \ud83d\ude02 Tag the most Albanian driver you know.",
+      "hashtags": [
+        "#superalto #albanianculture #cars #albania #relatable #balkans"
+      ],
+      "status": "Draft",
+      "slide_count": 0,
+      "slides": [],
+      "ad_settings": {
+        "platforms": ["Instagram", "TikTok"],
+        "audience": {
+          "locations": ["AL", "XK", "ME", "GR", "IN"],
+          "age_range": "22\u201345",
+          "gender": "All",
+          "interests": [
+            "cars",
+            "automotive",
+            "car buying",
+            "Albania",
+            "used cars",
+            "Balkans"
+          ]
+        },
+        "cta": "superalto.ai \u2192 link in bio"
+      }
+    },
+    {
+      "day": 39,
+      "id": "SA_039",
+      "month": "Month 2",
+      "week": "Week 6",
+      "week_theme": "The Albanian Car Culture Week",
+      "day_of_week": "Thursday",
+      "content_type": "Carousel",
+      "content_style": "Education",
+      "hook": "The 3 car brands that hold their value best in Albania \u2014 and the 3 that don't",
+      "content_description": "Data-driven brand analysis for Albanian market \u2014 resale winners and losers.",
+      "caption": "Know before you buy. SuperAlto shows you exactly what's available across all markets. superalto.ai",
+      "hashtags": [
+        "#superalto #carvalue #albania #usedcars #toyota #vwgolf #bmw"
+      ],
+      "status": "Draft",
+      "slide_count": 8,
+      "slides": [
+        {
+          "slide": 1,
+          "type": "hook",
+          "text": "Here's the data."
+        },
+        {
+          "slide": 2,
+          "type": "good",
+          "text": "Resale consistently 15% above European average in Albania."
+        },
+        {
+          "slide": 3,
+          "type": "good",
+          "text": "Demand never drops in this market."
+        },
+        {
+          "slide": 4,
+          "type": "good",
+          "text": "Most liquid car in the Balkans. Easiest to sell."
+        },
+        {
+          "slide": 5,
+          "type": "bad",
+          "text": "Servicing costs in Albania make resale painful."
+        },
+        {
+          "slide": 6,
+          "type": "bad",
+          "text": "Beautiful, but market too small to hold value."
+        },
+        {
+          "slide": 7,
+          "type": "bad",
+          "text": "Parts availability kills resale."
+        },
+        {
+          "slide": 8,
+          "type": "cta",
+          "text": "SuperAlto shows exactly what's available. superalto.ai"
+        }
+      ],
+      "ad_settings": {
+        "platforms": ["Instagram", "TikTok"],
+        "audience": {
+          "locations": ["AL", "XK", "ME", "GR", "IN"],
+          "age_range": "22\u201345",
+          "gender": "All",
+          "interests": [
+            "cars",
+            "automotive",
+            "car buying",
+            "Albania",
+            "used cars",
+            "Balkans"
+          ]
+        },
+        "cta": "superalto.ai \u2192 link in bio"
+      }
+    },
+    {
+      "day": 40,
+      "id": "SA_040",
+      "month": "Month 2",
+      "week": "Week 6",
+      "week_theme": "The Albanian Car Culture Week",
+      "day_of_week": "Friday",
+      "content_type": "Reel",
+      "content_style": "Relatable / Meme",
+      "hook": "Day 1 of car hunting: I want something practical. Day 21: I deserve a BMW.",
+      "content_description": "Evolving mindset Reel \u2014 text on screen, music building. Each day shows budget going up, car getting more ambitious. Final frame: SuperAlto with 'no budget limit set' \ud83d\ude02",
+      "caption": "The budget is a suggestion at this point \ud83d\ude02 Tag yourself. Tag a friend who's been here.",
+      "hashtags": ["#superalto #carhumor #albania #usedcars #bmw #relatable"],
+      "status": "Draft",
+      "slide_count": 0,
+      "slides": [],
+      "ad_settings": {
+        "platforms": ["Instagram", "TikTok"],
+        "audience": {
+          "locations": ["AL", "XK", "ME", "GR", "IN"],
+          "age_range": "22\u201345",
+          "gender": "All",
+          "interests": [
+            "cars",
+            "automotive",
+            "car buying",
+            "Albania",
+            "used cars",
+            "Balkans"
+          ]
+        },
+        "cta": "superalto.ai \u2192 link in bio"
+      }
+    },
+    {
+      "day": 41,
+      "id": "SA_041",
+      "month": "Month 2",
+      "week": "Week 6",
+      "week_theme": "The Albanian Car Culture Week",
+      "day_of_week": "Saturday",
+      "content_type": "Story",
+      "content_style": "Behind the Product",
+      "hook": "Here's how SuperAlto actually finds every listing \ud83d\udc40",
+      "content_description": "Explainer on web scraping and aggregation (simple, visual). 'New listings added in last 24 hours: [X]'",
+      "caption": "Real-time. 4 countries. One search. Here's how we do it.",
+      "hashtags": ["#superalto #tech #behindthescenes #albania"],
+      "status": "Draft",
+      "slide_count": 3,
+      "slides": [
+        {
+          "slide": 1,
+          "type": "explainer",
+          "text": "Web scraping + aggregation from Albania, Kosovo, Montenegro, Greece \u2014 explained simply"
+        },
+        {
+          "slide": 2,
+          "type": "live_data",
+          "text": "New listings added in the last 24 hours: [X] \ud83d\udd25"
+        },
+        {
+          "slide": 3,
+          "type": "cta",
+          "text": "SuperAlto.ai \u2192 link sticker"
+        }
+      ],
+      "ad_settings": {
+        "platforms": ["Instagram", "TikTok"],
+        "audience": {
+          "locations": ["AL", "XK", "ME", "GR", "IN"],
+          "age_range": "22\u201345",
+          "gender": "All",
+          "interests": [
+            "cars",
+            "automotive",
+            "car buying",
+            "Albania",
+            "used cars",
+            "Balkans"
+          ]
+        },
+        "cta": "superalto.ai \u2192 link in bio"
+      }
+    },
+    {
+      "day": 42,
+      "id": "SA_042",
+      "month": "Month 2",
+      "week": "Week 6",
+      "week_theme": "The Albanian Car Culture Week",
+      "day_of_week": "Sunday",
+      "content_type": "Reel",
+      "content_style": "Meme / Double Meaning",
+      "hook": "Everyone said go automatic. I stayed manual. No regrets.",
+      "content_description": "Manual driving footage \u2014 satisfaction of a perfect gear change. Argument for why manual is still worth it. 'Whether you're manual or automatic \u2014 SuperAlto has both.'",
+      "caption": "Manual drivers are a dying breed in Albania. We respect it. \ud83d\ude24 Are you team manual or team automatic? \ud83d\udc47",
+      "hashtags": ["#superalto #manual #automatic #cars #albania #driving"],
+      "status": "Draft",
+      "slide_count": 0,
+      "slides": [],
+      "ad_settings": {
+        "platforms": ["Instagram", "TikTok"],
+        "audience": {
+          "locations": ["AL", "XK", "ME", "GR", "IN"],
+          "age_range": "22\u201345",
+          "gender": "All",
+          "interests": [
+            "cars",
+            "automotive",
+            "car buying",
+            "Albania",
+            "used cars",
+            "Balkans"
+          ]
+        },
+        "cta": "superalto.ai \u2192 link in bio"
+      }
+    },
+    {
+      "day": 43,
+      "id": "SA_043",
+      "month": "Month 2",
+      "week": "Week 7",
+      "week_theme": "The Real Talk Week",
+      "day_of_week": "Monday",
+      "content_type": "Carousel",
+      "content_style": "Buyer Guide",
+      "hook": "First time buying a car in Albania? Read this before you do anything else.",
+      "content_description": "Step-by-step first-time buyer guide for Albanian market.",
+      "caption": "Save this. Share it with someone about to buy their first car. SuperAlto.ai \u2014 start your research there.",
+      "hashtags": [
+        "#superalto #firsttimebuyer #albania #carbuying #guide #usedcars"
+      ],
+      "status": "Draft",
+      "slide_count": 7,
+      "slides": [
+        {
+          "slide": 1,
+          "type": "hook",
+          "text": "Read this before you do anything else."
+        },
+        {
+          "slide": 2,
+          "type": "step",
+          "text": "Include insurance, tax, and first service. Not just purchase price."
+        },
+        {
+          "slide": 3,
+          "type": "step",
+          "text": "Albania + Kosovo + Montenegro. Don't limit yourself to one country."
+        },
+        {
+          "slide": 4,
+          "type": "step",
+          "text": "VIN check. Service records. Accident history. Non-negotiable."
+        },
+        {
+          "slide": 5,
+          "type": "step",
+          "text": "Not the seller's. Yours. \u20ac50 now vs. \u20ac2,000 later."
+        },
+        {
+          "slide": 6,
+          "type": "step",
+          "text": "Inspection gives you leverage. Use it."
+        },
+        {
+          "slide": 7,
+          "type": "cta",
+          "text": "One search. Every market. superalto.ai"
+        }
+      ],
+      "ad_settings": {
+        "platforms": ["Instagram", "TikTok"],
+        "audience": {
+          "locations": ["AL", "XK", "ME", "GR", "IN"],
+          "age_range": "22\u201345",
+          "gender": "All",
+          "interests": [
+            "cars",
+            "automotive",
+            "car buying",
+            "Albania",
+            "used cars",
+            "Balkans"
+          ]
+        },
+        "cta": "superalto.ai \u2192 link in bio"
+      }
+    },
+    {
+      "day": 44,
+      "id": "SA_044",
+      "month": "Month 2",
+      "week": "Week 7",
+      "week_theme": "The Real Talk Week",
+      "day_of_week": "Tuesday",
+      "content_type": "Story / Repurpose",
+      "content_style": "Engagement",
+      "hook": "Re-post best carousel from Week 6 + question sticker",
+      "content_description": "Reshare with updated caption. Q&A sticker: 'What car are you currently looking for?'",
+      "caption": "Still searching? Tell us what you're looking for \ud83d\udc47",
+      "hashtags": ["#superalto #albania #cars"],
+      "status": "Draft",
+      "slide_count": 0,
+      "slides": [],
+      "ad_settings": {
+        "platforms": ["Instagram", "TikTok"],
+        "audience": {
+          "locations": ["AL", "XK", "ME", "GR", "IN"],
+          "age_range": "22\u201345",
+          "gender": "All",
+          "interests": [
+            "cars",
+            "automotive",
+            "car buying",
+            "Albania",
+            "used cars",
+            "Balkans"
+          ]
+        },
+        "cta": "superalto.ai \u2192 link in bio"
+      }
+    },
+    {
+      "day": 45,
+      "id": "SA_045",
+      "month": "Month 2",
+      "week": "Week 7",
+      "week_theme": "The Real Talk Week",
+      "day_of_week": "Wednesday",
+      "content_type": "Reel",
+      "content_style": "Emotional",
+      "hook": "He drives a \u20ac2,000 car. He owns his home. He has no debt. He wins.",
+      "content_description": "Reflection on Albanian car culture and status vs. financial reality. Short, honest take on prioritising assets over appearances.",
+      "caption": "The most financially free people I know in Albania don't drive the most expensive car. Buy smart. Check all your options first. SuperAlto.ai",
+      "hashtags": [
+        "#superalto #financialfreedom #albania #usedcars #mindset #balkans"
+      ],
+      "status": "Draft",
+      "slide_count": 0,
+      "slides": [],
+      "ad_settings": {
+        "platforms": ["Instagram", "TikTok"],
+        "audience": {
+          "locations": ["AL", "XK", "ME", "GR", "IN"],
+          "age_range": "22\u201345",
+          "gender": "All",
+          "interests": [
+            "cars",
+            "automotive",
+            "car buying",
+            "Albania",
+            "used cars",
+            "Balkans"
+          ]
+        },
+        "cta": "superalto.ai \u2192 link in bio"
+      }
+    },
+    {
+      "day": 46,
+      "id": "SA_046",
+      "month": "Month 2",
+      "week": "Week 7",
+      "week_theme": "The Real Talk Week",
+      "day_of_week": "Thursday",
+      "content_type": "Carousel",
+      "content_style": "Albania vs Europe",
+      "hook": "What Albanian car buyers know that Europeans don't",
+      "content_description": "Cultural and market intelligence \u2014 diesel preference, cross-border buying, negotiation as default, community car intel.",
+      "caption": "Albania plays by its own rules. Here's why that's actually smart. And now you have SuperAlto on top of it all. superalto.ai",
+      "hashtags": ["#superalto #albania #carmarket #balkans #usedcars #diesel"],
+      "status": "Draft",
+      "slide_count": 6,
+      "slides": [
+        {
+          "slide": 1,
+          "type": "hook",
+          "text": "Here's why that's actually smart."
+        },
+        {
+          "slide": 2,
+          "type": "insight",
+          "text": "Albanian buyers already search Kosovo and Montenegro. SuperAlto makes this instant."
+        },
+        {
+          "slide": 3,
+          "type": "insight",
+          "text": "Lower parts cost in Albania. Smarter long-term choice."
+        },
+        {
+          "slide": 4,
+          "type": "insight",
+          "text": "The sticker price is the opening position. Always."
+        },
+        {
+          "slide": 5,
+          "type": "insight",
+          "text": "Word-of-mouth network for deals is powerful. SuperAlto adds data to it."
+        },
+        {
+          "slide": 6,
+          "type": "cta",
+          "text": "Community knowledge + SuperAlto data. superalto.ai"
+        }
+      ],
+      "ad_settings": {
+        "platforms": ["Instagram", "TikTok"],
+        "audience": {
+          "locations": ["AL", "XK", "ME", "GR", "IN"],
+          "age_range": "22\u201345",
+          "gender": "All",
+          "interests": [
+            "cars",
+            "automotive",
+            "car buying",
+            "Albania",
+            "used cars",
+            "Balkans"
+          ]
+        },
+        "cta": "superalto.ai \u2192 link in bio"
+      }
+    },
+    {
+      "day": 47,
+      "id": "SA_047",
+      "month": "Month 2",
+      "week": "Week 7",
+      "week_theme": "The Real Talk Week",
+      "day_of_week": "Friday",
+      "content_type": "Reel",
+      "content_style": "Pattern Interrupt",
+      "hook": "The 'I know a guy' method of buying cars in Albania has cost people more money than any dealer.",
+      "content_description": "Comedy-serious breakdown of how word-of-mouth car deals go wrong \u2014 over-valued cars, hidden problems, social pressure not to complain. vs. transparent SuperAlto listings.",
+      "caption": "Love the community. Just verify the car first. SuperAlto \u2192 link in bio.",
+      "hashtags": [
+        "#superalto #albania #carbuying #iknowaguy #transparency #usedcars"
+      ],
+      "status": "Draft",
+      "slide_count": 0,
+      "slides": [],
+      "ad_settings": {
+        "platforms": ["Instagram", "TikTok"],
+        "audience": {
+          "locations": ["AL", "XK", "ME", "GR", "IN"],
+          "age_range": "22\u201345",
+          "gender": "All",
+          "interests": [
+            "cars",
+            "automotive",
+            "car buying",
+            "Albania",
+            "used cars",
+            "Balkans"
+          ]
+        },
+        "cta": "superalto.ai \u2192 link in bio"
+      }
+    },
+    {
+      "day": 48,
+      "id": "SA_048",
+      "month": "Month 2",
+      "week": "Week 7",
+      "week_theme": "The Real Talk Week",
+      "day_of_week": "Saturday",
+      "content_type": "Story",
+      "content_style": "User Spotlight",
+      "hook": "How [Name] found their car in 12 minutes on SuperAlto",
+      "content_description": "Anonymised real user story \u2014 search, car found, price, time taken. Screenshots or screen recording.",
+      "caption": "Your turn. SuperAlto.ai \u2014 free to use.",
+      "hashtags": ["#superalto #userstory #albania"],
+      "status": "Draft",
+      "slide_count": 3,
+      "slides": [
+        {
+          "slide": 1,
+          "type": "story",
+          "text": "'How [Name] found their car in 12 minutes on SuperAlto'"
+        },
+        {
+          "slide": 2,
+          "type": "journey",
+          "text": "Search term \u2192 filters \u2192 listing found \u2014 screen recording"
+        },
+        {
+          "slide": 3,
+          "type": "cta",
+          "text": "SuperAlto.ai \u2192 link sticker"
+        }
+      ],
+      "ad_settings": {
+        "platforms": ["Instagram", "TikTok"],
+        "audience": {
+          "locations": ["AL", "XK", "ME", "GR", "IN"],
+          "age_range": "22\u201345",
+          "gender": "All",
+          "interests": [
+            "cars",
+            "automotive",
+            "car buying",
+            "Albania",
+            "used cars",
+            "Balkans"
+          ]
+        },
+        "cta": "superalto.ai \u2192 link in bio"
+      }
+    },
+    {
+      "day": 49,
+      "id": "SA_049",
+      "month": "Month 2",
+      "week": "Week 7",
+      "week_theme": "The Real Talk Week",
+      "day_of_week": "Sunday",
+      "content_type": "Reel",
+      "content_style": "Double Meaning / Funny",
+      "hook": "Bigger isn't always better. But in Albania, sometimes it is.",
+      "content_description": "Large SUV navigating Albanian roads perfectly \u2014 potholes, mountain terrain, parking chaos. 'For Albanian roads, you need size.' SuperAlto filtered by SUV.",
+      "caption": "Albanian roads have a way of making the right car very obvious \ud83d\ude02 Filter by SUV on SuperAlto.ai \u2192 link in bio.",
+      "hashtags": ["#superalto #suv #albania #roads #offroad #albanianroads"],
+      "status": "Draft",
+      "slide_count": 0,
+      "slides": [],
+      "ad_settings": {
+        "platforms": ["Instagram", "TikTok"],
+        "audience": {
+          "locations": ["AL", "XK", "ME", "GR", "IN"],
+          "age_range": "22\u201345",
+          "gender": "All",
+          "interests": [
+            "cars",
+            "automotive",
+            "car buying",
+            "Albania",
+            "used cars",
+            "Balkans"
+          ]
+        },
+        "cta": "superalto.ai \u2192 link in bio"
+      }
+    },
+    {
+      "day": 50,
+      "id": "SA_050",
+      "month": "Month 2",
+      "week": "Week 8",
+      "week_theme": "The Push Week",
+      "day_of_week": "Monday",
+      "content_type": "Carousel",
+      "content_style": "Mid-Point Progress",
+      "hook": "SuperAlto \u2014 50 days in. Here's what we've learned about Albanian car buyers.",
+      "content_description": "Data and insights from first 50 days \u2014 most searched cars, price ranges, countries compared.",
+      "caption": "50 days of data. Here's what Albanian car buyers really want. superalto.ai",
+      "hashtags": ["#superalto #data #albania #carbuying #milestone #balkans"],
+      "status": "Draft",
+      "slide_count": 5,
+      "slides": [
+        {
+          "slide": 1,
+          "type": "hook",
+          "text": "Data from SuperAlto platform + content."
+        },
+        {
+          "slide": 2,
+          "type": "stat",
+          "text": "[Model] \u2014 searched [X] times in 50 days"
+        },
+        {
+          "slide": 3,
+          "type": "stat",
+          "text": "\u20ac8,000\u201314,000 \u2014 62% of all searches"
+        },
+        {
+          "slide": 4,
+          "type": "stat",
+          "text": "Albania vs Kosovo \u2014 most compared pair"
+        },
+        {
+          "slide": 5,
+          "type": "cta",
+          "text": "SuperAlto.ai \u2014 every listing, every market."
+        }
+      ],
+      "ad_settings": {
+        "platforms": ["Instagram", "TikTok"],
+        "audience": {
+          "locations": ["AL", "XK", "ME", "GR", "IN"],
+          "age_range": "22\u201345",
+          "gender": "All",
+          "interests": [
+            "cars",
+            "automotive",
+            "car buying",
+            "Albania",
+            "used cars",
+            "Balkans"
+          ]
+        },
+        "cta": "superalto.ai \u2192 link in bio"
+      }
+    },
+    {
+      "day": 51,
+      "id": "SA_051",
+      "month": "Month 2",
+      "week": "Week 8",
+      "week_theme": "The Push Week",
+      "day_of_week": "Tuesday",
+      "content_type": "Story",
+      "content_style": "Engagement",
+      "hook": "Poll: What content do you want more of?",
+      "content_description": "Educational / Memes / Market data / Car reviews \u2014 audience chooses direction.",
+      "caption": "You run this. Tell us what you want more of \ud83d\udc47",
+      "hashtags": ["#superalto #community #albania"],
+      "status": "Draft",
+      "slide_count": 0,
+      "slides": [],
+      "ad_settings": {
+        "platforms": ["Instagram", "TikTok"],
+        "audience": {
+          "locations": ["AL", "XK", "ME", "GR", "IN"],
+          "age_range": "22\u201345",
+          "gender": "All",
+          "interests": [
+            "cars",
+            "automotive",
+            "car buying",
+            "Albania",
+            "used cars",
+            "Balkans"
+          ]
+        },
+        "cta": "superalto.ai \u2192 link in bio"
+      }
+    },
+    {
+      "day": 52,
+      "id": "SA_052",
+      "month": "Month 2",
+      "week": "Week 8",
+      "week_theme": "The Push Week",
+      "day_of_week": "Wednesday",
+      "content_type": "Reel",
+      "content_style": "Education",
+      "hook": "How to check if a car sold in Albania has a lien or outstanding finance \u2014 in 3 minutes",
+      "content_description": "Step-by-step process for checking car financial status in Albania. Practical, unique, high-save content.",
+      "caption": "Do this before you buy any used car in Albania. Save this video. Share it. SuperAlto.ai \u2192 link in bio.",
+      "hashtags": [
+        "#superalto #carbuying #albania #liens #usedcars #tips #finance"
+      ],
+      "status": "Draft",
+      "slide_count": 0,
+      "slides": [],
+      "ad_settings": {
+        "platforms": ["Instagram", "TikTok"],
+        "audience": {
+          "locations": ["AL", "XK", "ME", "GR", "IN"],
+          "age_range": "22\u201345",
+          "gender": "All",
+          "interests": [
+            "cars",
+            "automotive",
+            "car buying",
+            "Albania",
+            "used cars",
+            "Balkans"
+          ]
+        },
+        "cta": "superalto.ai \u2192 link in bio"
+      }
+    },
+    {
+      "day": 53,
+      "id": "SA_053",
+      "month": "Month 2",
+      "week": "Week 8",
+      "week_theme": "The Push Week",
+      "day_of_week": "Thursday",
+      "content_type": "Carousel",
+      "content_style": "Social Proof",
+      "hook": "5 real cars found on SuperAlto this month \u2014 under \u20ac8,000 \u2014 worth looking at",
+      "content_description": "5 specific listings with specs, price, and why each is worth considering.",
+      "caption": "All found on SuperAlto this month. Under \u20ac8,000. These are real. superalto.ai",
+      "hashtags": ["#superalto #carbargain #albania #usedcars #deals #budget"],
+      "status": "Draft",
+      "slide_count": 6,
+      "slides": [
+        {
+          "slide": 1,
+          "type": "hook",
+          "text": "Found on SuperAlto. All verified listings."
+        },
+        {
+          "slide": 2,
+          "type": "listing",
+          "text": "[Model, year, km, price] \u2014 Why it's worth it: [reason]"
+        },
+        {
+          "slide": 3,
+          "type": "listing",
+          "text": "[Model, year, km, price] \u2014 Why it's worth it: [reason]"
+        },
+        {
+          "slide": 4,
+          "type": "listing",
+          "text": "[Model, year, km, price] \u2014 Why it's worth it: [reason]"
+        },
+        {
+          "slide": 5,
+          "type": "listing",
+          "text": "[Model, year, km, price] \u2014 Why it's worth it: [reason]"
+        },
+        {
+          "slide": 6,
+          "type": "cta",
+          "text": "SuperAlto.ai \u2014 filter by price, market, and more."
+        }
+      ],
+      "ad_settings": {
+        "platforms": ["Instagram", "TikTok"],
+        "audience": {
+          "locations": ["AL", "XK", "ME", "GR", "IN"],
+          "age_range": "22\u201345",
+          "gender": "All",
+          "interests": [
+            "cars",
+            "automotive",
+            "car buying",
+            "Albania",
+            "used cars",
+            "Balkans"
+          ]
+        },
+        "cta": "superalto.ai \u2192 link in bio"
+      }
+    },
+    {
+      "day": 54,
+      "id": "SA_054",
+      "month": "Month 2",
+      "week": "Week 8",
+      "week_theme": "The Push Week",
+      "day_of_week": "Friday",
+      "content_type": "Reel",
+      "content_style": "Meme",
+      "hook": "Me: I'll set a budget and stick to it. Also me after 10 minutes on SuperAlto:",
+      "content_description": "Funny reaction Reel \u2014 opens app to check \u20ac8K options, ends up looking at \u20ac25K BMWs. Relatable but shows depth of SuperAlto listings.",
+      "caption": "SuperAlto doesn't judge your budget. Or your taste. \ud83d\ude97 Link in bio.",
+      "hashtags": ["#superalto #carhumor #albania #budget #bmw #relatable"],
+      "status": "Draft",
+      "slide_count": 0,
+      "slides": [],
+      "ad_settings": {
+        "platforms": ["Instagram", "TikTok"],
+        "audience": {
+          "locations": ["AL", "XK", "ME", "GR", "IN"],
+          "age_range": "22\u201345",
+          "gender": "All",
+          "interests": [
+            "cars",
+            "automotive",
+            "car buying",
+            "Albania",
+            "used cars",
+            "Balkans"
+          ]
+        },
+        "cta": "superalto.ai \u2192 link in bio"
+      }
+    },
+    {
+      "day": 55,
+      "id": "SA_055",
+      "month": "Month 2",
+      "week": "Week 8",
+      "week_theme": "The Push Week",
+      "day_of_week": "Saturday",
+      "content_type": "Story",
+      "content_style": "Q&A",
+      "hook": "Ask me anything about buying a used car in Albania or Kosovo \ud83d\ude97",
+      "content_description": "Q&A sticker. Answer live. Save best questions for future content.",
+      "caption": "Ask anything. Buying, selling, market intel, cross-border \u2014 anything.",
+      "hashtags": ["#superalto #qanda #albania #kosovo #cars"],
+      "status": "Draft",
+      "slide_count": 0,
+      "slides": [],
+      "ad_settings": {
+        "platforms": ["Instagram", "TikTok"],
+        "audience": {
+          "locations": ["AL", "XK", "ME", "GR", "IN"],
+          "age_range": "22\u201345",
+          "gender": "All",
+          "interests": [
+            "cars",
+            "automotive",
+            "car buying",
+            "Albania",
+            "used cars",
+            "Balkans"
+          ]
+        },
+        "cta": "superalto.ai \u2192 link in bio"
+      }
+    },
+    {
+      "day": 56,
+      "id": "SA_056",
+      "month": "Month 2",
+      "week": "Week 8",
+      "week_theme": "The Push Week",
+      "day_of_week": "Sunday",
+      "content_type": "Reel",
+      "content_style": "Conversion",
+      "hook": "Every car listed in Albania right now \u2014 one search. Free.",
+      "content_description": "Clean, fast screen demo. No talking. Music only. Text: 'Albania. Kosovo. Montenegro. Greece. One search. SuperAlto.ai'",
+      "caption": "superalto.ai \u2014 every car listing in the Balkans. One search. Free. Link in bio. \ud83d\ude97",
+      "hashtags": [
+        "#superalto #onesearch #albania #kosovo #montenegro #greece #free"
+      ],
+      "status": "Draft",
+      "slide_count": 0,
+      "slides": [],
+      "ad_settings": {
+        "platforms": ["Instagram", "TikTok"],
+        "audience": {
+          "locations": ["AL", "XK", "ME", "GR", "IN"],
+          "age_range": "22\u201345",
+          "gender": "All",
+          "interests": [
+            "cars",
+            "automotive",
+            "car buying",
+            "Albania",
+            "used cars",
+            "Balkans"
+          ]
+        },
+        "cta": "superalto.ai \u2192 link in bio"
+      }
+    },
+    {
+      "day": 57,
+      "id": "SA_057",
+      "month": "Month 2",
+      "week": "Week 9",
+      "week_theme": "The Viral Attempt Week",
+      "day_of_week": "Monday",
+      "content_type": "Carousel",
+      "content_style": "Month 2 Wrap",
+      "hook": "Month 2: What Albanian car buyers searched for most \u2014 and what they found",
+      "content_description": "Data wrap from Month 2 \u2014 top searches, listings, countries, best deal of the month.",
+      "caption": "Month 2 done. The numbers are in. Month 3 is going to be the biggest yet. superalto.ai",
+      "hashtags": ["#superalto #monthwrap #albania #cardata #balkans"],
+      "status": "Draft",
+      "slide_count": 5,
+      "slides": [
+        {
+          "slide": 1,
+          "type": "hook",
+          "text": "What Albanian car buyers searched for most."
+        },
+        {
+          "slide": 2,
+          "type": "stat",
+          "text": "[Model] \u2014 [X] searches this month"
+        },
+        {
+          "slide": 3,
+          "type": "stat",
+          "text": "[Country A] vs [Country B] \u2014 most compared"
+        },
+        {
+          "slide": 4,
+          "type": "stat",
+          "text": "[Car] at [Price] \u2014 [X]% below market avg"
+        },
+        {
+          "slide": 5,
+          "type": "cta",
+          "text": "Bigger, better, more. superalto.ai"
+        }
+      ],
+      "ad_settings": {
+        "platforms": ["Instagram", "TikTok"],
+        "audience": {
+          "locations": ["AL", "XK", "ME", "GR", "IN"],
+          "age_range": "22\u201345",
+          "gender": "All",
+          "interests": [
+            "cars",
+            "automotive",
+            "car buying",
+            "Albania",
+            "used cars",
+            "Balkans"
+          ]
+        },
+        "cta": "superalto.ai \u2192 link in bio"
+      }
+    },
+    {
+      "day": 58,
+      "id": "SA_058",
+      "month": "Month 2",
+      "week": "Week 9",
+      "week_theme": "The Viral Attempt Week",
+      "day_of_week": "Tuesday",
+      "content_type": "Story",
+      "content_style": "Repurpose",
+      "hook": "Best 3 posts from Month 2 \u2014 reshared",
+      "content_description": "Re-share top 3 posts from Month 2 as Stories.",
+      "caption": "In case you missed these. Month 3 is next.",
+      "hashtags": ["#superalto #bestof #albania"],
+      "status": "Draft",
+      "slide_count": 0,
+      "slides": [],
+      "ad_settings": {
+        "platforms": ["Instagram", "TikTok"],
+        "audience": {
+          "locations": ["AL", "XK", "ME", "GR", "IN"],
+          "age_range": "22\u201345",
+          "gender": "All",
+          "interests": [
+            "cars",
+            "automotive",
+            "car buying",
+            "Albania",
+            "used cars",
+            "Balkans"
+          ]
+        },
+        "cta": "superalto.ai \u2192 link in bio"
+      }
+    },
+    {
+      "day": 59,
+      "id": "SA_059",
+      "month": "Month 2",
+      "week": "Week 9",
+      "week_theme": "The Viral Attempt Week",
+      "day_of_week": "Wednesday",
+      "content_type": "Story",
+      "content_style": "Engagement",
+      "hook": "Poll: What do you want from Month 3?",
+      "content_description": "Audience poll to shape Month 3 content direction.",
+      "caption": "Your vote shapes what we build next. \ud83d\udc47",
+      "hashtags": ["#superalto #community #albania"],
+      "status": "Draft",
+      "slide_count": 0,
+      "slides": [],
+      "ad_settings": {
+        "platforms": ["Instagram", "TikTok"],
+        "audience": {
+          "locations": ["AL", "XK", "ME", "GR", "IN"],
+          "age_range": "22\u201345",
+          "gender": "All",
+          "interests": [
+            "cars",
+            "automotive",
+            "car buying",
+            "Albania",
+            "used cars",
+            "Balkans"
+          ]
+        },
+        "cta": "superalto.ai \u2192 link in bio"
+      }
+    },
+    {
+      "day": 60,
+      "id": "SA_060",
+      "month": "Month 2",
+      "week": "Week 9",
+      "week_theme": "The Viral Attempt Week",
+      "day_of_week": "Thursday",
+      "content_type": "Story",
+      "content_style": "Planning",
+      "hook": "Internally reviewing Month 2 performance",
+      "content_description": "Audit hook types, topics, posting times. Double down on what worked. Internal planning day.",
+      "caption": "[Internal planning \u2014 no public post]",
+      "hashtags": ["#superalto"],
+      "status": "Draft",
+      "slide_count": 0,
+      "slides": [],
+      "ad_settings": {
+        "platforms": ["Instagram", "TikTok"],
+        "audience": {
+          "locations": ["AL", "XK", "ME", "GR", "IN"],
+          "age_range": "22\u201345",
+          "gender": "All",
+          "interests": [
+            "cars",
+            "automotive",
+            "car buying",
+            "Albania",
+            "used cars",
+            "Balkans"
+          ]
+        },
+        "cta": "superalto.ai \u2192 link in bio"
+      }
+    },
+    {
+      "day": 61,
+      "id": "SA_061",
+      "month": "Month 3",
+      "week": "Week 9",
+      "week_theme": "The Viral Attempt Week",
+      "day_of_week": "Friday",
+      "content_type": "Reel",
+      "content_style": "Meme / Highly Shareable",
+      "hook": "Albanian men explaining their car to someone who didn't ask:",
+      "content_description": "Comedy Reel mimicking Albanian male car explanation \u2014 specs nobody needed, unsolicited model history, comparison to every other car, the pride. Captions only, no voiceover.",
+      "caption": "We love you but you're a lot sometimes \ud83d\ude02\u2764\ufe0f Tag the car guy in your life. You know exactly who. Target: 50K+ views.",
+      "hashtags": [
+        "#superalto #albania #albanianmen #carhumor #balkans #viral"
+      ],
+      "status": "Draft",
+      "slide_count": 0,
+      "slides": [],
+      "ad_settings": {
+        "platforms": ["Instagram", "TikTok"],
+        "audience": {
+          "locations": ["AL", "XK", "ME", "GR", "IN"],
+          "age_range": "22\u201345",
+          "gender": "All",
+          "interests": [
+            "cars",
+            "automotive",
+            "car buying",
+            "Albania",
+            "used cars",
+            "Balkans"
+          ]
+        },
+        "cta": "superalto.ai \u2192 link in bio"
+      }
+    },
+    {
+      "day": 62,
+      "id": "SA_062",
+      "month": "Month 3",
+      "week": "Week 9",
+      "week_theme": "The Viral Attempt Week",
+      "day_of_week": "Saturday",
+      "content_type": "Carousel",
+      "content_style": "Viral Education",
+      "hook": "What everyone in Albania is doing wrong when buying a used car",
+      "content_description": "5 common mistakes Albanian car buyers make. Shareable and educational.",
+      "caption": "Send this to anyone about to buy a car in Albania. Could save them \u20ac2,000+. superalto.ai",
+      "hashtags": ["#superalto #carbuying #albania #mistakes #usedcars #tips"],
+      "status": "Draft",
+      "slide_count": 7,
+      "slides": [
+        {
+          "slide": 1,
+          "type": "hook",
+          "text": "Are you one of them?"
+        },
+        {
+          "slide": 2,
+          "type": "mistake",
+          "text": "20% cheaper on average. This one move saves \u20ac1,500+."
+        },
+        {
+          "slide": 3,
+          "type": "mistake",
+          "text": "They're paid to miss things. Use your own."
+        },
+        {
+          "slide": 4,
+          "type": "mistake",
+          "text": "You lose leverage. Always inspect first."
+        },
+        {
+          "slide": 5,
+          "type": "mistake",
+          "text": "Missing records = unknown risk. Always ask."
+        },
+        {
+          "slide": 6,
+          "type": "mistake",
+          "text": "Check at least 3. SuperAlto makes this easy."
+        },
+        {
+          "slide": 7,
+          "type": "cta",
+          "text": "Check all markets. Then decide. superalto.ai"
+        }
+      ],
+      "ad_settings": {
+        "platforms": ["Instagram", "TikTok"],
+        "audience": {
+          "locations": ["AL", "XK", "ME", "GR", "IN"],
+          "age_range": "22\u201345",
+          "gender": "All",
+          "interests": [
+            "cars",
+            "automotive",
+            "car buying",
+            "Albania",
+            "used cars",
+            "Balkans"
+          ]
+        },
+        "cta": "superalto.ai \u2192 link in bio"
+      }
+    },
+    {
+      "day": 63,
+      "id": "SA_063",
+      "month": "Month 3",
+      "week": "Week 9",
+      "week_theme": "The Viral Attempt Week",
+      "day_of_week": "Sunday",
+      "content_type": "Reel",
+      "content_style": "Double Meaning",
+      "hook": "I told myself I was just browsing. Three hours later I was in love.",
+      "content_description": "Someone opening SuperAlto 'just to look' and ending up absorbed \u2014 saving listings, comparing prices, planning upgrade. The rabbit hole feeling.",
+      "caption": "Just browsing. Sure. We've all been there \ud83d\ude02 SuperAlto.ai \u2192 link in bio. Don't say we didn't warn you.",
+      "hashtags": [
+        "#superalto #justbrowsing #cars #albania #relatable #carhumor"
+      ],
+      "status": "Draft",
+      "slide_count": 0,
+      "slides": [],
+      "ad_settings": {
+        "platforms": ["Instagram", "TikTok"],
+        "audience": {
+          "locations": ["AL", "XK", "ME", "GR", "IN"],
+          "age_range": "22\u201345",
+          "gender": "All",
+          "interests": [
+            "cars",
+            "automotive",
+            "car buying",
+            "Albania",
+            "used cars",
+            "Balkans"
+          ]
+        },
+        "cta": "superalto.ai \u2192 link in bio"
+      }
+    },
+    {
+      "day": 64,
+      "id": "SA_064",
+      "month": "Month 3",
+      "week": "Week 10",
+      "week_theme": "The Authority Week",
+      "day_of_week": "Monday",
+      "content_type": "Story",
+      "content_style": "Challenge",
+      "hook": "Challenge: Find the best car under \u20ac5,000 on SuperAlto right now.",
+      "content_description": "Invite followers to DM their find. Reshare best finds with credit.",
+      "caption": "Go find it. DM us the listing. Best find gets reshared. \ud83d\ude97",
+      "hashtags": ["#superalto #challenge #albania #usedcars #budget"],
+      "status": "Draft",
+      "slide_count": 0,
+      "slides": [],
+      "ad_settings": {
+        "platforms": ["Instagram", "TikTok"],
+        "audience": {
+          "locations": ["AL", "XK", "ME", "GR", "IN"],
+          "age_range": "22\u201345",
+          "gender": "All",
+          "interests": [
+            "cars",
+            "automotive",
+            "car buying",
+            "Albania",
+            "used cars",
+            "Balkans"
+          ]
+        },
+        "cta": "superalto.ai \u2192 link in bio"
+      }
+    },
+    {
+      "day": 65,
+      "id": "SA_065",
+      "month": "Month 3",
+      "week": "Week 10",
+      "week_theme": "The Authority Week",
+      "day_of_week": "Tuesday",
+      "content_type": "Reel",
+      "content_style": "Identity / Emotional",
+      "hook": "The first time I drove out of Tirana with my own car. That feeling doesn't leave you.",
+      "content_description": "Cinematic \u2014 road footage, sunrise or sunset, Albanian landscape. No hard sell. Just the feeling. SuperAlto logo fade at end.",
+      "caption": "Some milestones you feel in your chest. Find yours. SuperAlto.ai \ud83d\ude97",
+      "hashtags": [
+        "#superalto #tirana #albania #firstcar #freedom #albanianroads"
+      ],
+      "status": "Draft",
+      "slide_count": 0,
+      "slides": [],
+      "ad_settings": {
+        "platforms": ["Instagram", "TikTok"],
+        "audience": {
+          "locations": ["AL", "XK", "ME", "GR", "IN"],
+          "age_range": "22\u201345",
+          "gender": "All",
+          "interests": [
+            "cars",
+            "automotive",
+            "car buying",
+            "Albania",
+            "used cars",
+            "Balkans"
+          ]
+        },
+        "cta": "superalto.ai \u2192 link in bio"
+      }
+    },
+    {
+      "day": 66,
+      "id": "SA_066",
+      "month": "Month 3",
+      "week": "Week 10",
+      "week_theme": "The Authority Week",
+      "day_of_week": "Wednesday",
+      "content_type": "Carousel",
+      "content_style": "Practical",
+      "hook": "The actual cost of owning a car in Albania \u2014 breakdown no one talks about",
+      "content_description": "Full total cost of ownership breakdown \u2014 purchase, insurance, tax, fuel, maintenance, real monthly cost.",
+      "caption": "Most people only think about the purchase price. Here's the real number. Know this before you buy. superalto.ai",
+      "hashtags": [
+        "#superalto #carCosts #albania #personalfinance #usedcars #ownership"
+      ],
+      "status": "Draft",
+      "slide_count": 7,
+      "slides": [
+        {
+          "slide": 1,
+          "type": "hook",
+          "text": "Here's the full breakdown."
+        },
+        {
+          "slide": 2,
+          "type": "cost",
+          "text": "\u20ac[X] \u2014 what you pay upfront"
+        },
+        {
+          "slide": 3,
+          "type": "cost",
+          "text": "\u20ac[X]/year \u2014 varies by model and age"
+        },
+        {
+          "slide": 4,
+          "type": "cost",
+          "text": "\u20ac[X]/year \u2014 based on engine size"
+        },
+        {
+          "slide": 5,
+          "type": "cost",
+          "text": "\u20ac[X]/month \u2014 at typical Albanian km/week"
+        },
+        {
+          "slide": 6,
+          "type": "cost",
+          "text": "\u20ac[X]/year \u2014 average for [model type]"
+        },
+        {
+          "slide": 7,
+          "type": "cta",
+          "text": "Know this before you buy. superalto.ai"
+        }
+      ],
+      "ad_settings": {
+        "platforms": ["Instagram", "TikTok"],
+        "audience": {
+          "locations": ["AL", "XK", "ME", "GR", "IN"],
+          "age_range": "22\u201345",
+          "gender": "All",
+          "interests": [
+            "cars",
+            "automotive",
+            "car buying",
+            "Albania",
+            "used cars",
+            "Balkans"
+          ]
+        },
+        "cta": "superalto.ai \u2192 link in bio"
+      }
+    },
+    {
+      "day": 67,
+      "id": "SA_067",
+      "month": "Month 3",
+      "week": "Week 10",
+      "week_theme": "The Authority Week",
+      "day_of_week": "Thursday",
+      "content_type": "Story / Rest",
+      "content_style": "Best-Of",
+      "hook": "Best-of stories from Month 3 Week 9",
+      "content_description": "Reshare top performing content from Week 9 as Stories.",
+      "caption": "[Best of Week 9]",
+      "hashtags": ["#superalto #albania"],
+      "status": "Draft",
+      "slide_count": 0,
+      "slides": [],
+      "ad_settings": {
+        "platforms": ["Instagram", "TikTok"],
+        "audience": {
+          "locations": ["AL", "XK", "ME", "GR", "IN"],
+          "age_range": "22\u201345",
+          "gender": "All",
+          "interests": [
+            "cars",
+            "automotive",
+            "car buying",
+            "Albania",
+            "used cars",
+            "Balkans"
+          ]
+        },
+        "cta": "superalto.ai \u2192 link in bio"
+      }
+    },
+    {
+      "day": 68,
+      "id": "SA_068",
+      "month": "Month 3",
+      "week": "Week 10",
+      "week_theme": "The Authority Week",
+      "day_of_week": "Friday",
+      "content_type": "Reel",
+      "content_style": "Deep Insight",
+      "hook": "Why Albanian car prices are rising in 2026 \u2014 and what to do about it",
+      "content_description": "Analysis: Balkan economic growth, used car imports post-pandemic, European emission restrictions pushing older cars east, rising local demand. Buy now or wait?",
+      "caption": "The market isn't waiting for you to make a decision. Here's the data. SuperAlto.ai for latest prices across all 4 markets \u2192 link in bio.",
+      "hashtags": ["#superalto #carmarket #albania #2026 #carprices #analysis"],
+      "status": "Draft",
+      "slide_count": 0,
+      "slides": [],
+      "ad_settings": {
+        "platforms": ["Instagram", "TikTok"],
+        "audience": {
+          "locations": ["AL", "XK", "ME", "GR", "IN"],
+          "age_range": "22\u201345",
+          "gender": "All",
+          "interests": [
+            "cars",
+            "automotive",
+            "car buying",
+            "Albania",
+            "used cars",
+            "Balkans"
+          ]
+        },
+        "cta": "superalto.ai \u2192 link in bio"
+      }
+    },
+    {
+      "day": 69,
+      "id": "SA_069",
+      "month": "Month 3",
+      "week": "Week 10",
+      "week_theme": "The Authority Week",
+      "day_of_week": "Saturday",
+      "content_type": "Carousel",
+      "content_style": "Car vs Car Series",
+      "hook": "BMW 320d vs. Mercedes C200 \u2014 same price in Albania. Which one do you actually buy?",
+      "content_description": "Head-to-head comparison \u2014 performance, reliability in Albanian conditions, service costs, resale, verdict.",
+      "caption": "Same price. Very different ownership experience. Cast your vote in the comments. BMW or Mercedes? superalto.ai",
+      "hashtags": [
+        "#superalto #bmwvsmercedes #albania #usedcars #carcomparison #debate"
+      ],
+      "status": "Draft",
+      "slide_count": 6,
+      "slides": [
+        {
+          "slide": 1,
+          "type": "hook",
+          "text": "BMW 320d vs. Mercedes C200 \u2014 Albanian market edition."
+        },
+        {
+          "slide": 2,
+          "type": "comparison",
+          "text": "BMW 320d: 184hp, sportier feel. C200: 184hp, more refined. Both solid."
+        },
+        {
+          "slide": 3,
+          "type": "comparison",
+          "text": "BMW: Known issues with electronics. Mercedes: More complex servicing."
+        },
+        {
+          "slide": 4,
+          "type": "comparison",
+          "text": "BMW: Parts available, costs moderate. Mercedes: Parts cost more in AL."
+        },
+        {
+          "slide": 5,
+          "type": "comparison",
+          "text": "BMW: High demand, resells fast. Mercedes: Strong too, slightly slower."
+        },
+        {
+          "slide": 6,
+          "type": "cta",
+          "text": "Comment BMW or Mercedes. We'll share the result. Both available on SuperAlto."
+        }
+      ],
+      "ad_settings": {
+        "platforms": ["Instagram", "TikTok"],
+        "audience": {
+          "locations": ["AL", "XK", "ME", "GR", "IN"],
+          "age_range": "22\u201345",
+          "gender": "All",
+          "interests": [
+            "cars",
+            "automotive",
+            "car buying",
+            "Albania",
+            "used cars",
+            "Balkans"
+          ]
+        },
+        "cta": "superalto.ai \u2192 link in bio"
+      }
+    },
+    {
+      "day": 70,
+      "id": "SA_070",
+      "month": "Month 3",
+      "week": "Week 10",
+      "week_theme": "The Authority Week",
+      "day_of_week": "Sunday",
+      "content_type": "Reel",
+      "content_style": "Albanian Culture",
+      "hook": "Negotiating a car price in Albania be like:",
+      "content_description": "Comedy breakdown of Albanian price negotiation \u2014 opening insult to the price, dramatic walk-away, 'final final' price, handshake that means nothing, second call.",
+      "caption": "A negotiation in Albania is a performance art \ud83d\ude02 Use SuperAlto before you step into that showroom. Know exactly what it's worth.",
+      "hashtags": [
+        "#superalto #albania #negotiation #carhumor #albanianculture #balkans"
+      ],
+      "status": "Draft",
+      "slide_count": 0,
+      "slides": [],
+      "ad_settings": {
+        "platforms": ["Instagram", "TikTok"],
+        "audience": {
+          "locations": ["AL", "XK", "ME", "GR", "IN"],
+          "age_range": "22\u201345",
+          "gender": "All",
+          "interests": [
+            "cars",
+            "automotive",
+            "car buying",
+            "Albania",
+            "used cars",
+            "Balkans"
+          ]
+        },
+        "cta": "superalto.ai \u2192 link in bio"
+      }
+    },
+    {
+      "day": 71,
+      "id": "SA_071",
+      "month": "Month 3",
+      "week": "Week 11",
+      "week_theme": "The Community Week",
+      "day_of_week": "Monday",
+      "content_type": "Story",
+      "content_style": "Expert Corner",
+      "hook": "Your car questions, answered.",
+      "content_description": "Q&A sticker \u2014 answer 5\u20137 most interesting questions in story format. Save best ones for future carousel.",
+      "caption": "Nothing off limits. Ask your car questions \ud83d\udc47",
+      "hashtags": ["#superalto #qanda #cars #albania"],
+      "status": "Draft",
+      "slide_count": 0,
+      "slides": [],
+      "ad_settings": {
+        "platforms": ["Instagram", "TikTok"],
+        "audience": {
+          "locations": ["AL", "XK", "ME", "GR", "IN"],
+          "age_range": "22\u201345",
+          "gender": "All",
+          "interests": [
+            "cars",
+            "automotive",
+            "car buying",
+            "Albania",
+            "used cars",
+            "Balkans"
+          ]
+        },
+        "cta": "superalto.ai \u2192 link in bio"
+      }
+    },
+    {
+      "day": 72,
+      "id": "SA_072",
+      "month": "Month 3",
+      "week": "Week 11",
+      "week_theme": "The Community Week",
+      "day_of_week": "Tuesday",
+      "content_type": "Reel",
+      "content_style": "Pattern Interrupt",
+      "hook": "Nobody talks about Montenegro when buying cars in the Balkans. They should.",
+      "content_description": "Spotlight on Montenegrin car market \u2014 pricing, availability, what's unique. SuperAlto unlocks genuinely new information.",
+      "caption": "Albania and Kosovo get all the attention. Montenegro has deals. Check all three on SuperAlto.ai \u2192 link in bio.",
+      "hashtags": [
+        "#superalto #montenegro #balkans #usedcars #carmarket #podgorica"
+      ],
+      "status": "Draft",
+      "slide_count": 0,
+      "slides": [],
+      "ad_settings": {
+        "platforms": ["Instagram", "TikTok"],
+        "audience": {
+          "locations": ["AL", "XK", "ME", "GR", "IN"],
+          "age_range": "22\u201345",
+          "gender": "All",
+          "interests": [
+            "cars",
+            "automotive",
+            "car buying",
+            "Albania",
+            "used cars",
+            "Balkans"
+          ]
+        },
+        "cta": "superalto.ai \u2192 link in bio"
+      }
+    },
+    {
+      "day": 73,
+      "id": "SA_073",
+      "month": "Month 3",
+      "week": "Week 11",
+      "week_theme": "The Community Week",
+      "day_of_week": "Wednesday",
+      "content_type": "Carousel",
+      "content_style": "Car Review",
+      "hook": "The Toyota Land Cruiser in Albania: a cultural phenomenon, explained",
+      "content_description": "Why the Land Cruiser dominates Albanian car culture beyond specs \u2014 status, durability, community, pricing vs Europe.",
+      "caption": "It's not just a car in Albania. It's a statement. And SuperAlto has every listing across all 4 markets. superalto.ai",
+      "hashtags": [
+        "#superalto #landcruiser #toyota #albania #suv #albanianculture"
+      ],
+      "status": "Draft",
+      "slide_count": 6,
+      "slides": [
+        {
+          "slide": 1,
+          "type": "hook",
+          "text": "Here's why."
+        },
+        {
+          "slide": 2,
+          "type": "insight",
+          "text": "In Albania, Land Cruiser = success. Culturally embedded for 20+ years."
+        },
+        {
+          "slide": 3,
+          "type": "insight",
+          "text": "Mountain roads, potholes, mud. The LC handles it all. That's not marketing. That's reality."
+        },
+        {
+          "slide": 4,
+          "type": "insight",
+          "text": "Land Cruiser owners in Albania have a network. Parts, advice, service. Everyone knows someone."
+        },
+        {
+          "slide": 5,
+          "type": "insight",
+          "text": "Albanian market prices are 15\u201320% below Western Europe for equivalent condition LCs."
+        },
+        {
+          "slide": 6,
+          "type": "cta",
+          "text": "Every Land Cruiser listing across 4 markets. superalto.ai"
+        }
+      ],
+      "ad_settings": {
+        "platforms": ["Instagram", "TikTok"],
+        "audience": {
+          "locations": ["AL", "XK", "ME", "GR", "IN"],
+          "age_range": "22\u201345",
+          "gender": "All",
+          "interests": [
+            "cars",
+            "automotive",
+            "car buying",
+            "Albania",
+            "used cars",
+            "Balkans"
+          ]
+        },
+        "cta": "superalto.ai \u2192 link in bio"
+      }
+    },
+    {
+      "day": 74,
+      "id": "SA_074",
+      "month": "Month 3",
+      "week": "Week 11",
+      "week_theme": "The Community Week",
+      "day_of_week": "Thursday",
+      "content_type": "Story",
+      "content_style": "Engagement",
+      "hook": "Next Car vs. Car comparison \u2014 you decide",
+      "content_description": "Poll: Golf vs. Astra / Range Rover vs. Land Cruiser / Audi vs. BMW / SuperAlto decides",
+      "caption": "Vote for the next head-to-head. The winner gets a full carousel. \ud83d\udc47",
+      "hashtags": ["#superalto #carvcar #albania #poll"],
+      "status": "Draft",
+      "slide_count": 0,
+      "slides": [],
+      "ad_settings": {
+        "platforms": ["Instagram", "TikTok"],
+        "audience": {
+          "locations": ["AL", "XK", "ME", "GR", "IN"],
+          "age_range": "22\u201345",
+          "gender": "All",
+          "interests": [
+            "cars",
+            "automotive",
+            "car buying",
+            "Albania",
+            "used cars",
+            "Balkans"
+          ]
+        },
+        "cta": "superalto.ai \u2192 link in bio"
+      }
+    },
+    {
+      "day": 75,
+      "id": "SA_075",
+      "month": "Month 3",
+      "week": "Week 11",
+      "week_theme": "The Community Week",
+      "day_of_week": "Friday",
+      "content_type": "Reel",
+      "content_style": "Meme",
+      "hook": "My girlfriend said I talk about cars too much. I said SuperAlto.ai. She said what. I said exactly.",
+      "content_description": "Couple dynamic Reel \u2014 one person obsessed with car research, the other completely uninterested. Relatable. Funny. Shareable.",
+      "caption": "Some of us are built different \ud83d\ude02\ud83d\ude97 Tag your partner who doesn't understand the obsession.",
+      "hashtags": ["#superalto #carhumor #couples #albania #relatable #cars"],
+      "status": "Draft",
+      "slide_count": 0,
+      "slides": [],
+      "ad_settings": {
+        "platforms": ["Instagram", "TikTok"],
+        "audience": {
+          "locations": ["AL", "XK", "ME", "GR", "IN"],
+          "age_range": "22\u201345",
+          "gender": "All",
+          "interests": [
+            "cars",
+            "automotive",
+            "car buying",
+            "Albania",
+            "used cars",
+            "Balkans"
+          ]
+        },
+        "cta": "superalto.ai \u2192 link in bio"
+      }
+    },
+    {
+      "day": 76,
+      "id": "SA_076",
+      "month": "Month 3",
+      "week": "Week 11",
+      "week_theme": "The Community Week",
+      "day_of_week": "Saturday",
+      "content_type": "Carousel",
+      "content_style": "User Stories",
+      "hook": "5 SuperAlto users share how they found their car \u2014 and what they saved",
+      "content_description": "Anonymised or real user testimonials \u2014 search story, car found, price paid, amount saved vs. local market.",
+      "caption": "Real people. Real cars. Real savings. superalto.ai \u2014 free to use.",
+      "hashtags": [
+        "#superalto #usertestimonial #albania #usedcars #savings #community"
+      ],
+      "status": "Draft",
+      "slide_count": 6,
+      "slides": [
+        {
+          "slide": 1,
+          "type": "hook",
+          "text": "Real SuperAlto stories."
+        },
+        {
+          "slide": 2,
+          "type": "testimonial",
+          "text": "'Found a 2016 Golf in Kosovo for \u20ac1,800 less than the same car in Tirana. SuperAlto showed me both.'"
+        },
+        {
+          "slide": 3,
+          "type": "testimonial",
+          "text": "'Saved 3 weeks of research. Found the right car in 45 minutes.'"
+        },
+        {
+          "slide": 4,
+          "type": "testimonial",
+          "text": "'Checked 4 markets. Bought in Montenegro. Saved \u20ac2,400 vs. Durr\u00ebs market price.'"
+        },
+        {
+          "slide": 5,
+          "type": "testimonial",
+          "text": "'Used SuperAlto to compare before meeting the dealer. Negotiated \u20ac600 off. The data gave me confidence.'"
+        },
+        {
+          "slide": 6,
+          "type": "cta",
+          "text": "superalto.ai \u2192 start your search free."
+        }
+      ],
+      "ad_settings": {
+        "platforms": ["Instagram", "TikTok"],
+        "audience": {
+          "locations": ["AL", "XK", "ME", "GR", "IN"],
+          "age_range": "22\u201345",
+          "gender": "All",
+          "interests": [
+            "cars",
+            "automotive",
+            "car buying",
+            "Albania",
+            "used cars",
+            "Balkans"
+          ]
+        },
+        "cta": "superalto.ai \u2192 link in bio"
+      }
+    },
+    {
+      "day": 77,
+      "id": "SA_077",
+      "month": "Month 3",
+      "week": "Week 11",
+      "week_theme": "The Community Week",
+      "day_of_week": "Sunday",
+      "content_type": "Reel",
+      "content_style": "Double Meaning",
+      "hook": "You want good performance? You need to maintain her properly.",
+      "content_description": "Maintenance tips for used cars \u2014 oil changes, tyre rotation, brake checks. Each tip delivered with knowing looks. 'Treat her right and she'll never let you down.'",
+      "caption": "A well-maintained car is a forever car \ud83d\ude97 Found yours yet? SuperAlto.ai \u2192 link in bio. \ud83d\ude0f What were you expecting?",
+      "hashtags": [
+        "#superalto #carmaintenance #albania #usedcars #tips #doublemeaninghumor"
+      ],
+      "status": "Draft",
+      "slide_count": 0,
+      "slides": [],
+      "ad_settings": {
+        "platforms": ["Instagram", "TikTok"],
+        "audience": {
+          "locations": ["AL", "XK", "ME", "GR", "IN"],
+          "age_range": "22\u201345",
+          "gender": "All",
+          "interests": [
+            "cars",
+            "automotive",
+            "car buying",
+            "Albania",
+            "used cars",
+            "Balkans"
+          ]
+        },
+        "cta": "superalto.ai \u2192 link in bio"
+      }
+    },
+    {
+      "day": 78,
+      "id": "SA_078",
+      "month": "Month 3",
+      "week": "Week 12",
+      "week_theme": "The Final Push",
+      "day_of_week": "Monday",
+      "content_type": "Story",
+      "content_style": "Community Highlight",
+      "hook": "Reshare 5 best DMs/comments from this month",
+      "content_description": "Community appreciation moment \u2014 reshare best interactions. Share follower/listing milestone.",
+      "caption": "The SuperAlto community is building something. Thank you. \ud83d\ude4f",
+      "hashtags": ["#superalto #community #albania #milestone"],
+      "status": "Draft",
+      "slide_count": 0,
+      "slides": [],
+      "ad_settings": {
+        "platforms": ["Instagram", "TikTok"],
+        "audience": {
+          "locations": ["AL", "XK", "ME", "GR", "IN"],
+          "age_range": "22\u201345",
+          "gender": "All",
+          "interests": [
+            "cars",
+            "automotive",
+            "car buying",
+            "Albania",
+            "used cars",
+            "Balkans"
+          ]
+        },
+        "cta": "superalto.ai \u2192 link in bio"
+      }
+    },
+    {
+      "day": 79,
+      "id": "SA_079",
+      "month": "Month 3",
+      "week": "Week 12",
+      "week_theme": "The Final Push",
+      "day_of_week": "Tuesday",
+      "content_type": "Reel",
+      "content_style": "Education + Urgency",
+      "hook": "Good car listings in Albania disappear in 24\u201348 hours. Here's how to move faster.",
+      "content_description": "How to set alerts, save searches, and act quickly when the right listing appears. Practical, useful, drives sign-ups.",
+      "caption": "The best listings go fast. Here's how to be first. SuperAlto.ai \u2014 set your search, get notified. Link in bio.",
+      "hashtags": ["#superalto #carbuying #albania #urgency #usedcars #tips"],
+      "status": "Draft",
+      "slide_count": 0,
+      "slides": [],
+      "ad_settings": {
+        "platforms": ["Instagram", "TikTok"],
+        "audience": {
+          "locations": ["AL", "XK", "ME", "GR", "IN"],
+          "age_range": "22\u201345",
+          "gender": "All",
+          "interests": [
+            "cars",
+            "automotive",
+            "car buying",
+            "Albania",
+            "used cars",
+            "Balkans"
+          ]
+        },
+        "cta": "superalto.ai \u2192 link in bio"
+      }
+    },
+    {
+      "day": 80,
+      "id": "SA_080",
+      "month": "Month 3",
+      "week": "Week 12",
+      "week_theme": "The Final Push",
+      "day_of_week": "Wednesday",
+      "content_type": "Carousel",
+      "content_style": "Seasonal / Timely",
+      "hook": "Buying a car in spring vs. winter in Albania \u2014 what you need to know about timing",
+      "content_description": "How seasonality affects Albanian car prices and availability. When to buy, when to wait.",
+      "caption": "Timing is everything. Here's the data on Albanian car market seasonality. superalto.ai",
+      "hashtags": [
+        "#superalto #carbuying #albania #seasonal #timing #usedcars"
+      ],
+      "status": "Draft",
+      "slide_count": 6,
+      "slides": [
+        {
+          "slide": 1,
+          "type": "hook",
+          "text": "Albanian market seasonality \u2014 the data."
+        },
+        {
+          "slide": 2,
+          "type": "insight",
+          "text": "Most listings appear. Competition is highest. Prices are peak."
+        },
+        {
+          "slide": 3,
+          "type": "insight",
+          "text": "Market slows. Diaspora returns with imports. Unusual deals appear."
+        },
+        {
+          "slide": 4,
+          "type": "insight",
+          "text": "Best time to buy. Post-summer stock, motivated sellers, less competition."
+        },
+        {
+          "slide": 5,
+          "type": "insight",
+          "text": "Low inventory. Prices stable but few options. Ideal if you're selling."
+        },
+        {
+          "slide": 6,
+          "type": "cta",
+          "text": "SuperAlto tracks live listings daily. superalto.ai"
+        }
+      ],
+      "ad_settings": {
+        "platforms": ["Instagram", "TikTok"],
+        "audience": {
+          "locations": ["AL", "XK", "ME", "GR", "IN"],
+          "age_range": "22\u201345",
+          "gender": "All",
+          "interests": [
+            "cars",
+            "automotive",
+            "car buying",
+            "Albania",
+            "used cars",
+            "Balkans"
+          ]
+        },
+        "cta": "superalto.ai \u2192 link in bio"
+      }
+    },
+    {
+      "day": 81,
+      "id": "SA_081",
+      "month": "Month 3",
+      "week": "Week 12",
+      "week_theme": "The Final Push",
+      "day_of_week": "Thursday",
+      "content_type": "Story / Rest",
+      "content_style": "Best-Of",
+      "hook": "Rest + Best-Of Stories",
+      "content_description": "Reshare top performing posts from Week 11.",
+      "caption": "[Best of Week 11]",
+      "hashtags": ["#superalto #albania"],
+      "status": "Draft",
+      "slide_count": 0,
+      "slides": [],
+      "ad_settings": {
+        "platforms": ["Instagram", "TikTok"],
+        "audience": {
+          "locations": ["AL", "XK", "ME", "GR", "IN"],
+          "age_range": "22\u201345",
+          "gender": "All",
+          "interests": [
+            "cars",
+            "automotive",
+            "car buying",
+            "Albania",
+            "used cars",
+            "Balkans"
+          ]
+        },
+        "cta": "superalto.ai \u2192 link in bio"
+      }
+    },
+    {
+      "day": 82,
+      "id": "SA_082",
+      "month": "Month 3",
+      "week": "Week 12",
+      "week_theme": "The Final Push",
+      "day_of_week": "Friday",
+      "content_type": "Reel",
+      "content_style": "Emotional Close",
+      "hook": "In Albania, buying your own car still means something. It should.",
+      "content_description": "Reflective. Pride of ownership in a culture where it's hard-earned. SuperAlto as the tool that helps you make the right call.",
+      "caption": "Work hard. Buy smart. SuperAlto.ai \u2014 every car listing in the Balkans. Free. Link in bio. \ud83d\ude97",
+      "hashtags": ["#superalto #albania #pride #hardwork #firstcar #balkans"],
+      "status": "Draft",
+      "slide_count": 0,
+      "slides": [],
+      "ad_settings": {
+        "platforms": ["Instagram", "TikTok"],
+        "audience": {
+          "locations": ["AL", "XK", "ME", "GR", "IN"],
+          "age_range": "22\u201345",
+          "gender": "All",
+          "interests": [
+            "cars",
+            "automotive",
+            "car buying",
+            "Albania",
+            "used cars",
+            "Balkans"
+          ]
+        },
+        "cta": "superalto.ai \u2192 link in bio"
+      }
+    },
+    {
+      "day": 83,
+      "id": "SA_083",
+      "month": "Month 3",
+      "week": "Week 12",
+      "week_theme": "The Final Push",
+      "day_of_week": "Saturday",
+      "content_type": "Carousel",
+      "content_style": "Referral Push",
+      "hook": "Know someone looking for a car? This carousel is for them.",
+      "content_description": "Shareable first-time buyer guide \u2014 optimised for sharing. Everything a new Albanian car buyer needs.",
+      "caption": "Send this to someone who's about to start car hunting. Save them 3 weeks. SuperAlto.ai \u2014 free to use. \ud83d\ude97",
+      "hashtags": [
+        "#superalto #carbuying #albania #share #firsttimebuyer #guide"
+      ],
+      "status": "Draft",
+      "slide_count": 7,
+      "slides": [
+        {
+          "slide": 1,
+          "type": "hook",
+          "text": "Everything they need. One carousel."
+        },
+        {
+          "slide": 2,
+          "type": "tip",
+          "text": "Set a real budget including insurance, tax, and first service."
+        },
+        {
+          "slide": 3,
+          "type": "tip",
+          "text": "Use SuperAlto \u2014 Albania, Kosovo, Montenegro, Greece. One search. Free."
+        },
+        {
+          "slide": 4,
+          "type": "tip",
+          "text": "Get the VIN. Check the history. Never meet without it."
+        },
+        {
+          "slide": 5,
+          "type": "tip",
+          "text": "Your mechanic. Not theirs. \u20ac50 now vs. \u20ac2,000 later."
+        },
+        {
+          "slide": 6,
+          "type": "tip",
+          "text": "After inspection, not before. Inspection = leverage."
+        },
+        {
+          "slide": 7,
+          "type": "cta",
+          "text": "Free. No sign-up. Every market. superalto.ai"
+        }
+      ],
+      "ad_settings": {
+        "platforms": ["Instagram", "TikTok"],
+        "audience": {
+          "locations": ["AL", "XK", "ME", "GR", "IN"],
+          "age_range": "22\u201345",
+          "gender": "All",
+          "interests": [
+            "cars",
+            "automotive",
+            "car buying",
+            "Albania",
+            "used cars",
+            "Balkans"
+          ]
+        },
+        "cta": "superalto.ai \u2192 link in bio"
+      }
+    },
+    {
+      "day": 84,
+      "id": "SA_084",
+      "month": "Month 3",
+      "week": "Week 12",
+      "week_theme": "The Final Push",
+      "day_of_week": "Sunday",
+      "content_type": "Reel",
+      "content_style": "Meme / Cultural",
+      "hook": "There are two types of car buyers in Albania. Which one are you?",
+      "content_description": "Type A: Researches everything, checks 4 countries, reads service history. Type B: 'I know a guy.' Funny split-screen format.",
+      "caption": "Both valid. Only one of them saves money \ud83d\ude02 Type A uses SuperAlto. Just saying. Link in bio.",
+      "hashtags": ["#superalto #albania #carhumor #typea #typeb #iknowaguy"],
+      "status": "Draft",
+      "slide_count": 0,
+      "slides": [],
+      "ad_settings": {
+        "platforms": ["Instagram", "TikTok"],
+        "audience": {
+          "locations": ["AL", "XK", "ME", "GR", "IN"],
+          "age_range": "22\u201345",
+          "gender": "All",
+          "interests": [
+            "cars",
+            "automotive",
+            "car buying",
+            "Albania",
+            "used cars",
+            "Balkans"
+          ]
+        },
+        "cta": "superalto.ai \u2192 link in bio"
+      }
+    },
+    {
+      "day": 85,
+      "id": "SA_085",
+      "month": "Month 3",
+      "week": "Week 13",
+      "week_theme": "The Final Push",
+      "day_of_week": "Monday",
+      "content_type": "Story",
+      "content_style": "90-Day Countdown",
+      "hook": "Day 85 of SuperAlto on social. Here's what we've learned about you:",
+      "content_description": "Summary of top content learnings from 85 days. Poll: 'What should we build next?'",
+      "caption": "85 days in. Here's what the data says. What comes next is up to you.",
+      "hashtags": ["#superalto #milestone #albania #community"],
+      "status": "Draft",
+      "slide_count": 0,
+      "slides": [],
+      "ad_settings": {
+        "platforms": ["Instagram", "TikTok"],
+        "audience": {
+          "locations": ["AL", "XK", "ME", "GR", "IN"],
+          "age_range": "22\u201345",
+          "gender": "All",
+          "interests": [
+            "cars",
+            "automotive",
+            "car buying",
+            "Albania",
+            "used cars",
+            "Balkans"
+          ]
+        },
+        "cta": "superalto.ai \u2192 link in bio"
+      }
+    },
+    {
+      "day": 86,
+      "id": "SA_086",
+      "month": "Month 3",
+      "week": "Week 13",
+      "week_theme": "The Final Push",
+      "day_of_week": "Tuesday",
+      "content_type": "Reel",
+      "content_style": "Best Reels Compilation",
+      "hook": "Our 5 most-saved car tips from the last 90 days \u2014 in 60 seconds",
+      "content_description": "Quick-cut compilation of 5 highest-performing carousels or tips. Fast, dense, high-value.",
+      "caption": "90 days of content. These 5 hit the hardest. Save this one too. superalto.ai \u2192 link in bio.",
+      "hashtags": [
+        "#superalto #bestof #albania #usedcars #compilation #carbuying"
+      ],
+      "status": "Draft",
+      "slide_count": 0,
+      "slides": [],
+      "ad_settings": {
+        "platforms": ["Instagram", "TikTok"],
+        "audience": {
+          "locations": ["AL", "XK", "ME", "GR", "IN"],
+          "age_range": "22\u201345",
+          "gender": "All",
+          "interests": [
+            "cars",
+            "automotive",
+            "car buying",
+            "Albania",
+            "used cars",
+            "Balkans"
+          ]
+        },
+        "cta": "superalto.ai \u2192 link in bio"
+      }
+    },
+    {
+      "day": 87,
+      "id": "SA_087",
+      "month": "Month 3",
+      "week": "Week 13",
+      "week_theme": "The Final Push",
+      "day_of_week": "Wednesday",
+      "content_type": "Carousel",
+      "content_style": "90-Day Retrospective",
+      "hook": "90 days. Here's what SuperAlto found for Albanian car buyers.",
+      "content_description": "Full 90-day wrap \u2014 platform stats, top content learnings, community milestones.",
+      "caption": "90 days. Month 4 is coming. What do you want us to cover? Drop it below. superalto.ai",
+      "hashtags": [
+        "#superalto #90days #albania #carmarket #balkans #retrospective"
+      ],
+      "status": "Draft",
+      "slide_count": 7,
+      "slides": [
+        {
+          "slide": 1,
+          "type": "hook",
+          "text": "SuperAlto + social \u2014 the full picture."
+        },
+        {
+          "slide": 2,
+          "type": "stat",
+          "text": "[X] listings across 4 countries"
+        },
+        {
+          "slide": 3,
+          "type": "stat",
+          "text": "Albania \ud83c\udde6\ud83c\uddf1 Kosovo \ud83c\uddfd\ud83c\uddf0 Montenegro \ud83c\uddf2\ud83c\uddea Greece \ud83c\uddec\ud83c\uddf7"
+        },
+        {
+          "slide": 4,
+          "type": "stat",
+          "text": "[Model] \u2014 [X] searches"
+        },
+        {
+          "slide": 5,
+          "type": "stat",
+          "text": "\u20ac[X] \u2014 via cross-market comparison"
+        },
+        {
+          "slide": 6,
+          "type": "stat",
+          "text": "\u20ac8,000\u201314,000 \u2014 62% of all searches"
+        },
+        {
+          "slide": 7,
+          "type": "cta",
+          "text": "What do you want us to cover? \u2192 superalto.ai"
+        }
+      ],
+      "ad_settings": {
+        "platforms": ["Instagram", "TikTok"],
+        "audience": {
+          "locations": ["AL", "XK", "ME", "GR", "IN"],
+          "age_range": "22\u201345",
+          "gender": "All",
+          "interests": [
+            "cars",
+            "automotive",
+            "car buying",
+            "Albania",
+            "used cars",
+            "Balkans"
+          ]
+        },
+        "cta": "superalto.ai \u2192 link in bio"
+      }
+    },
+    {
+      "day": 88,
+      "id": "SA_088",
+      "month": "Month 3",
+      "week": "Week 13",
+      "week_theme": "The Final Push",
+      "day_of_week": "Thursday",
+      "content_type": "Story",
+      "content_style": "Community",
+      "hook": "Thank the audience. Share milestone numbers.",
+      "content_description": "Genuine community appreciation. Reshare top 5 comments from 90 days.",
+      "caption": "90 days of you. Thank you. \ud83d\ude4f",
+      "hashtags": ["#superalto #community #albania #thankyou"],
+      "status": "Draft",
+      "slide_count": 0,
+      "slides": [],
+      "ad_settings": {
+        "platforms": ["Instagram", "TikTok"],
+        "audience": {
+          "locations": ["AL", "XK", "ME", "GR", "IN"],
+          "age_range": "22\u201345",
+          "gender": "All",
+          "interests": [
+            "cars",
+            "automotive",
+            "car buying",
+            "Albania",
+            "used cars",
+            "Balkans"
+          ]
+        },
+        "cta": "superalto.ai \u2192 link in bio"
+      }
+    },
+    {
+      "day": 89,
+      "id": "SA_089",
+      "month": "Month 3",
+      "week": "Week 13",
+      "week_theme": "The Final Push",
+      "day_of_week": "Friday",
+      "content_type": "Reel",
+      "content_style": "Final Conversion",
+      "hook": "90 days of proving one thing: there are better cars, better prices, and better ways to search in Albania.",
+      "content_description": "Clean, confident brand statement. Show the platform. Show the results. No gimmicks \u2014 just clarity.",
+      "caption": "SuperAlto. Every car listing in the Balkans. One search. Free. superalto.ai \u2192 link in bio \ud83d\ude97\ud83c\udde6\ud83c\uddf1",
+      "hashtags": ["#superalto #albania #onesearch #balkans #free #carbuying"],
+      "status": "Draft",
+      "slide_count": 0,
+      "slides": [],
+      "ad_settings": {
+        "platforms": ["Instagram", "TikTok"],
+        "audience": {
+          "locations": ["AL", "XK", "ME", "GR", "IN"],
+          "age_range": "22\u201345",
+          "gender": "All",
+          "interests": [
+            "cars",
+            "automotive",
+            "car buying",
+            "Albania",
+            "used cars",
+            "Balkans"
+          ]
+        },
+        "cta": "superalto.ai \u2192 link in bio"
+      }
+    },
+    {
+      "day": 90,
+      "id": "SA_090",
+      "month": "Month 3",
+      "week": "Week 13",
+      "week_theme": "The Final Push",
+      "day_of_week": "Saturday",
+      "content_type": "Reel",
+      "content_style": "Meme / Send-off",
+      "hook": "Day 90. I started this page to help Albanians find better cars. I didn't expect you to also make me laugh every single day in the comments.",
+      "content_description": "Genuine, slightly self-aware look back \u2014 acknowledging the community, funny comments, debates. Warm. Human. Sets up Month 4.",
+      "caption": "The uncle comparisons. The 'BMW or Mercedes' wars. The people still looking for a car since Day 1 (update us!). Thank you. Month 4 is going to be bigger. Stay tuned. \ud83d\ude97 SuperAlto.ai",
+      "hashtags": ["#superalto #day90 #albania #community #month4 #thankyou"],
+      "status": "Draft",
+      "slide_count": 0,
+      "slides": [],
+      "ad_settings": {
+        "platforms": ["Instagram", "TikTok"],
+        "audience": {
+          "locations": ["AL", "XK", "ME", "GR", "IN"],
+          "age_range": "22\u201345",
+          "gender": "All",
+          "interests": [
+            "cars",
+            "automotive",
+            "car buying",
+            "Albania",
+            "used cars",
+            "Balkans"
+          ]
+        },
+        "cta": "superalto.ai \u2192 link in bio"
+      }
+    }
+  ]
+}
